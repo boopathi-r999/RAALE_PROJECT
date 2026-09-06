@@ -1,0 +1,201 @@
+address_id,raw_text,area,true_difficulty,true_instruction
+ADDR_7F3A62C8,"1 Main St, Gated Community Zone",gated community,0.679,Gate code: 3286
+ADDR_25A4D9DE,"2 Main St, Gated Community Zone",gated community,0.613,Entry from North Gate only
+ADDR_BD23C5AB,"3 Main St, Apartment Zone",apartment,0.411,Code is 1434
+ADDR_21E90CCF,"4 Main St, Industrial Zone",industrial,0.49,Ask for warehouse manager
+ADDR_516BBFE5,"5 Main St, Apartment Zone",apartment,0.196,Call Anita at security
+ADDR_22E65630,"6 Main St, Apartment Zone",apartment,0.253,Call Priya at security
+ADDR_08497A26,"7 Main St, Apartment Zone",apartment,0.281,Leave with building manager
+ADDR_43ADEE87,"8 Main St, Industrial Zone",industrial,0.515,Ask for warehouse manager
+ADDR_C07CD5FD,"9 Main St, Apartment Zone",apartment,0.312,Leave with building manager
+ADDR_29FB2DC4,"10 Main St, Apartment Zone",apartment,0.486,Call Ramesh at security
+ADDR_B617FD66,"11 Main St, Standalone House Zone",standalone house,0.165,Leave at back porch
+ADDR_411CBE09,"12 Main St, Apartment Zone",apartment,0.277,Call Ramesh at security
+ADDR_758D269D,"13 Main St, Gated Community Zone",gated community,0.677,Gate code: 8573
+ADDR_A598CE20,"14 Main St, Apartment Zone",apartment,0.492,Code is 4598
+ADDR_B09B75B3,"15 Main St, Standalone House Zone",standalone house,0.112,Beware of dog
+ADDR_15C2066F,"16 Main St, Apartment Zone",apartment,0.279,Call Suresh at security
+ADDR_BDF84ED7,"17 Main St, Gated Community Zone",gated community,0.424,"Security needs flat number, ask for Priya"
+ADDR_10204270,"18 Main St, Apartment Zone",apartment,0.485,Code is 9830
+ADDR_18CEA0F2,"19 Main St, Industrial Zone",industrial,0.331,Enter via side gate
+ADDR_178366F3,"20 Main St, Gated Community Zone",gated community,0.658,Gate code: 1771
+ADDR_61258061,"21 Main St, Apartment Zone",apartment,0.431,Code is 2040
+ADDR_6FFFE4B6,"22 Main St, Apartment Zone",apartment,0.478,Leave with building manager
+ADDR_AF17E8FE,"23 Main St, Standalone House Zone",standalone house,0.11,Call upon arrival
+ADDR_FB64773A,"24 Main St, Industrial Zone",industrial,0.438,Enter via side gate
+ADDR_371C4CFE,"25 Main St, Gated Community Zone",gated community,0.362,Entry from North Gate only
+ADDR_6BF76098,"26 Main St, Gated Community Zone",gated community,0.671,Gate code: 5889
+ADDR_03A31AA2,"27 Main St, Apartment Zone",apartment,0.36,Code is 1009
+ADDR_BD12651B,"28 Main St, Gated Community Zone",gated community,0.476,Gate code: 6947
+ADDR_59CE9E4B,"29 Main St, Apartment Zone",apartment,0.357,Call Anita at security
+ADDR_7A84334A,"30 Main St, Standalone House Zone",standalone house,0.229,Call upon arrival
+ADDR_8F1905B6,"31 Main St, Gated Community Zone",gated community,0.657,Entry from North Gate only
+ADDR_ABDA6772,"32 Main St, Standalone House Zone",standalone house,0.08,Call upon arrival
+ADDR_B094F368,"33 Main St, Apartment Zone",apartment,0.304,Code is 8397
+ADDR_A74DFEBD,"34 Main St, Apartment Zone",apartment,0.265,Call Ramesh at security
+ADDR_BB09C1D0,"35 Main St, Gated Community Zone",gated community,0.609,Gate code: 1964
+ADDR_E98743AA,"36 Main St, Apartment Zone",apartment,0.42,Call Ramesh at security
+ADDR_DDB2F13E,"37 Main St, Gated Community Zone",gated community,0.579,Entry from North Gate only
+ADDR_1979B32F,"38 Main St, Apartment Zone",apartment,0.463,Leave with building manager
+ADDR_D80A3A9E,"39 Main St, Apartment Zone",apartment,0.299,Leave with building manager
+ADDR_F9CCE202,"40 Main St, Gated Community Zone",gated community,0.521,Entry from North Gate only
+ADDR_DECD0F3F,"41 Main St, Gated Community Zone",gated community,0.494,Gate code: 4139
+ADDR_1EEFDA4E,"42 Main St, Gated Community Zone",gated community,0.768,Gate code: 7912
+ADDR_0B5EC0F7,"43 Main St, Apartment Zone",apartment,0.35,Leave with building manager
+ADDR_1E58EF1C,"44 Main St, Gated Community Zone",gated community,0.827,Entry from North Gate only
+ADDR_39302E7F,"45 Main St, Standalone House Zone",standalone house,0.135,Leave at back porch
+ADDR_214DA568,"46 Main St, Standalone House Zone",standalone house,0.051,Beware of dog
+ADDR_EAC71EDF,"47 Main St, Apartment Zone",apartment,0.174,Leave with building manager
+ADDR_C8AAB8D4,"48 Main St, Gated Community Zone",gated community,0.745,Entry from North Gate only
+ADDR_4B44C83E,"49 Main St, Apartment Zone",apartment,0.357,Code is 9883
+ADDR_B0F3A2A2,"50 Main St, Industrial Zone",industrial,0.484,Deliver to loading dock B
+ADDR_3A0CD70C,"51 Main St, Gated Community Zone",gated community,0.635,Entry from North Gate only
+ADDR_1FA1B731,"52 Main St, Apartment Zone",apartment,0.303,Call Anita at security
+ADDR_A47FE032,"53 Main St, Apartment Zone",apartment,0.408,Code is 1651
+ADDR_9510DA30,"54 Main St, Gated Community Zone",gated community,0.552,Entry from North Gate only
+ADDR_CA4F8215,"55 Main St, Standalone House Zone",standalone house,0.145,Beware of dog
+ADDR_8EE35A0A,"56 Main St, Apartment Zone",apartment,0.502,Code is 5915
+ADDR_EAD54B45,"57 Main St, Apartment Zone",apartment,0.35,Leave with building manager
+ADDR_CB044A14,"58 Main St, Gated Community Zone",gated community,0.561,Entry from North Gate only
+ADDR_C01D8B0B,"59 Main St, Standalone House Zone",standalone house,0.251,Leave at back porch
+ADDR_E2A08A2E,"60 Main St, Gated Community Zone",gated community,0.46,Entry from North Gate only
+ADDR_173E1F17,"61 Main St, Gated Community Zone",gated community,0.382,Gate code: 3200
+ADDR_BEBCCBED,"62 Main St, Apartment Zone",apartment,0.272,Call Priya at security
+ADDR_A67FF62C,"63 Main St, Apartment Zone",apartment,0.372,Code is 5325
+ADDR_93398E92,"64 Main St, Apartment Zone",apartment,0.439,Call Anita at security
+ADDR_C65BD1F9,"65 Main St, Standalone House Zone",standalone house,0.187,Beware of dog
+ADDR_F7C1F036,"66 Main St, Industrial Zone",industrial,0.475,Ask for warehouse manager
+ADDR_8FA371F8,"67 Main St, Apartment Zone",apartment,0.494,Call Ramesh at security
+ADDR_469EF816,"68 Main St, Standalone House Zone",standalone house,0.05,Call upon arrival
+ADDR_5BE8DCE6,"69 Main St, Apartment Zone",apartment,0.273,Call Suresh at security
+ADDR_DE591318,"70 Main St, Gated Community Zone",gated community,0.8,Entry from North Gate only
+ADDR_DB15392A,"71 Main St, Industrial Zone",industrial,0.526,Ask for warehouse manager
+ADDR_BFD57B00,"72 Main St, Standalone House Zone",standalone house,0.05,Beware of dog
+ADDR_6733942B,"73 Main St, Apartment Zone",apartment,0.505,Leave with building manager
+ADDR_16919F02,"74 Main St, Apartment Zone",apartment,0.27,Code is 2771
+ADDR_C0DA16BE,"75 Main St, Standalone House Zone",standalone house,0.145,Leave at back porch
+ADDR_332E52B3,"76 Main St, Standalone House Zone",standalone house,0.05,Beware of dog
+ADDR_F6940BB7,"77 Main St, Gated Community Zone",gated community,0.535,Gate code: 5573
+ADDR_C64DB979,"78 Main St, Gated Community Zone",gated community,0.648,"Security needs flat number, ask for Priya"
+ADDR_BE77219B,"79 Main St, Standalone House Zone",standalone house,0.299,Beware of dog
+ADDR_F7ACA777,"80 Main St, Apartment Zone",apartment,0.526,Leave with building manager
+ADDR_A1DE5BDC,"81 Main St, Gated Community Zone",gated community,0.649,Entry from North Gate only
+ADDR_F76A6D6D,"82 Main St, Apartment Zone",apartment,0.345,Leave with building manager
+ADDR_716FD968,"83 Main St, Apartment Zone",apartment,0.484,Leave with building manager
+ADDR_7B7534DE,"84 Main St, Industrial Zone",industrial,0.513,Enter via side gate
+ADDR_AB01BD6E,"85 Main St, Gated Community Zone",gated community,0.529,Entry from North Gate only
+ADDR_CF7172B5,"86 Main St, Gated Community Zone",gated community,0.737,"Security needs flat number, ask for Priya"
+ADDR_8B2563BA,"87 Main St, Gated Community Zone",gated community,0.643,Gate code: 8043
+ADDR_F68A53B7,"88 Main St, Gated Community Zone",gated community,0.526,"Security needs flat number, ask for Anita"
+ADDR_051B3227,"89 Main St, Industrial Zone",industrial,0.608,Ask for warehouse manager
+ADDR_943CCABB,"90 Main St, Gated Community Zone",gated community,0.559,Entry from North Gate only
+ADDR_22670424,"91 Main St, Standalone House Zone",standalone house,0.101,Beware of dog
+ADDR_4DCCED8A,"92 Main St, Apartment Zone",apartment,0.201,Call Ramesh at security
+ADDR_F685A282,"93 Main St, Gated Community Zone",gated community,0.699,Entry from North Gate only
+ADDR_8D36E2EA,"94 Main St, Apartment Zone",apartment,0.264,Call Ramesh at security
+ADDR_4CE96A54,"95 Main St, Industrial Zone",industrial,0.485,Ask for warehouse manager
+ADDR_7AED35FE,"96 Main St, Apartment Zone",apartment,0.527,Call Anita at security
+ADDR_DDE351E6,"97 Main St, Apartment Zone",apartment,0.23,Code is 6198
+ADDR_8F2BCED4,"98 Main St, Gated Community Zone",gated community,0.627,Entry from North Gate only
+ADDR_E5904593,"99 Main St, Standalone House Zone",standalone house,0.05,Call upon arrival
+ADDR_8A36F26B,"100 Main St, Apartment Zone",apartment,0.287,Call Anita at security
+ADDR_2A8826A5,"101 Main St, Gated Community Zone",gated community,0.594,"Security needs flat number, ask for Priya"
+ADDR_DDEB8156,"102 Main St, Apartment Zone",apartment,0.39,Code is 2320
+ADDR_87A157D2,"103 Main St, Apartment Zone",apartment,0.307,Call Anita at security
+ADDR_C87A09DA,"104 Main St, Gated Community Zone",gated community,0.639,Entry from North Gate only
+ADDR_A50BDAE8,"105 Main St, Apartment Zone",apartment,0.399,Code is 1320
+ADDR_D3FBA62E,"106 Main St, Gated Community Zone",gated community,0.514,"Security needs flat number, ask for Anita"
+ADDR_46164A95,"107 Main St, Standalone House Zone",standalone house,0.2,Call upon arrival
+ADDR_3C1DA9CE,"108 Main St, Gated Community Zone",gated community,0.57,"Security needs flat number, ask for Anita"
+ADDR_6119DC9A,"109 Main St, Apartment Zone",apartment,0.272,Leave with building manager
+ADDR_2E311080,"110 Main St, Standalone House Zone",standalone house,0.229,Call upon arrival
+ADDR_515EFCFE,"111 Main St, Standalone House Zone",standalone house,0.05,Beware of dog
+ADDR_2BDF30DB,"112 Main St, Standalone House Zone",standalone house,0.05,Beware of dog
+ADDR_529C0368,"113 Main St, Apartment Zone",apartment,0.371,Leave with building manager
+ADDR_1E6718FE,"114 Main St, Apartment Zone",apartment,0.436,Call Ramesh at security
+ADDR_D669B64C,"115 Main St, Industrial Zone",industrial,0.683,Deliver to loading dock B
+ADDR_E2AC8E69,"116 Main St, Industrial Zone",industrial,0.529,Deliver to loading dock B
+ADDR_01D00867,"117 Main St, Gated Community Zone",gated community,0.608,Gate code: 4571
+ADDR_3EF32554,"118 Main St, Gated Community Zone",gated community,0.713,"Security needs flat number, ask for Ramesh"
+ADDR_197D66C8,"119 Main St, Industrial Zone",industrial,0.495,Ask for warehouse manager
+ADDR_4019FD5E,"120 Main St, Gated Community Zone",gated community,0.674,"Security needs flat number, ask for Suresh"
+ADDR_4DAB4BAB,"121 Main St, Apartment Zone",apartment,0.299,Call Ramesh at security
+ADDR_D3EAA83E,"122 Main St, Industrial Zone",industrial,0.319,Ask for warehouse manager
+ADDR_D539AF46,"123 Main St, Gated Community Zone",gated community,0.58,Entry from North Gate only
+ADDR_95B7518C,"124 Main St, Standalone House Zone",standalone house,0.068,Leave at back porch
+ADDR_F8690423,"125 Main St, Standalone House Zone",standalone house,0.05,Call upon arrival
+ADDR_3EA7762F,"126 Main St, Apartment Zone",apartment,0.209,Code is 5425
+ADDR_70919BD3,"127 Main St, Gated Community Zone",gated community,0.661,"Security needs flat number, ask for Ramesh"
+ADDR_C095B563,"128 Main St, Apartment Zone",apartment,0.231,Leave with building manager
+ADDR_6C46BBE0,"129 Main St, Gated Community Zone",gated community,0.555,"Security needs flat number, ask for Suresh"
+ADDR_A7ECCEE3,"130 Main St, Gated Community Zone",gated community,0.521,"Security needs flat number, ask for Priya"
+ADDR_28B1FC8D,"131 Main St, Apartment Zone",apartment,0.18,Code is 1166
+ADDR_7A5D8434,"132 Main St, Apartment Zone",apartment,0.233,Code is 7658
+ADDR_1865F39D,"133 Main St, Gated Community Zone",gated community,0.607,Entry from North Gate only
+ADDR_7630D341,"134 Main St, Industrial Zone",industrial,0.563,Deliver to loading dock B
+ADDR_60FF2753,"135 Main St, Gated Community Zone",gated community,0.606,"Security needs flat number, ask for Priya"
+ADDR_78A8CF6F,"136 Main St, Gated Community Zone",gated community,0.748,Entry from North Gate only
+ADDR_ACC1CFB7,"137 Main St, Industrial Zone",industrial,0.44,Deliver to loading dock B
+ADDR_DEA6A3FA,"138 Main St, Apartment Zone",apartment,0.425,Code is 4033
+ADDR_42D7195C,"139 Main St, Apartment Zone",apartment,0.19,Code is 5636
+ADDR_18108222,"140 Main St, Standalone House Zone",standalone house,0.116,Leave at back porch
+ADDR_F57F5291,"141 Main St, Apartment Zone",apartment,0.473,Leave with building manager
+ADDR_AB8F67EE,"142 Main St, Gated Community Zone",gated community,0.611,Entry from North Gate only
+ADDR_3E9BA17D,"143 Main St, Apartment Zone",apartment,0.432,Leave with building manager
+ADDR_D96289FA,"144 Main St, Apartment Zone",apartment,0.356,Call Anita at security
+ADDR_54EDF89B,"145 Main St, Apartment Zone",apartment,0.457,Code is 1878
+ADDR_C3D5A39D,"146 Main St, Apartment Zone",apartment,0.396,Code is 5978
+ADDR_6517E6CA,"147 Main St, Standalone House Zone",standalone house,0.225,Call upon arrival
+ADDR_4229D735,"148 Main St, Gated Community Zone",gated community,0.715,"Security needs flat number, ask for Anita"
+ADDR_49159A28,"149 Main St, Apartment Zone",apartment,0.251,Code is 2625
+ADDR_5875E354,"150 Main St, Gated Community Zone",gated community,0.505,"Security needs flat number, ask for Suresh"
+ADDR_2C07AF1A,"151 Main St, Apartment Zone",apartment,0.295,Leave with building manager
+ADDR_D198BFC4,"152 Main St, Apartment Zone",apartment,0.331,Call Priya at security
+ADDR_536D5F87,"153 Main St, Industrial Zone",industrial,0.304,Enter via side gate
+ADDR_BBFCF7A7,"154 Main St, Apartment Zone",apartment,0.393,Call Priya at security
+ADDR_98B4A510,"155 Main St, Standalone House Zone",standalone house,0.154,Leave at back porch
+ADDR_F3A2FBF9,"156 Main St, Apartment Zone",apartment,0.376,Code is 5982
+ADDR_647359FC,"157 Main St, Standalone House Zone",standalone house,0.05,Beware of dog
+ADDR_759ACFE6,"158 Main St, Industrial Zone",industrial,0.45,Ask for warehouse manager
+ADDR_94219C75,"159 Main St, Apartment Zone",apartment,0.535,Code is 1339
+ADDR_CC36EB4B,"160 Main St, Gated Community Zone",gated community,0.555,Gate code: 8708
+ADDR_39BC7E94,"161 Main St, Standalone House Zone",standalone house,0.155,Call upon arrival
+ADDR_445C7B5E,"162 Main St, Gated Community Zone",gated community,0.721,"Security needs flat number, ask for Priya"
+ADDR_83AEFA64,"163 Main St, Gated Community Zone",gated community,0.656,Entry from North Gate only
+ADDR_8DC860A9,"164 Main St, Gated Community Zone",gated community,0.53,"Security needs flat number, ask for Anita"
+ADDR_975257B1,"165 Main St, Apartment Zone",apartment,0.349,Leave with building manager
+ADDR_899B591A,"166 Main St, Gated Community Zone",gated community,0.65,Entry from North Gate only
+ADDR_E61FFC71,"167 Main St, Apartment Zone",apartment,0.211,Leave with building manager
+ADDR_1DE1536E,"168 Main St, Apartment Zone",apartment,0.334,Code is 3146
+ADDR_A1C0B33A,"169 Main St, Gated Community Zone",gated community,0.584,Entry from North Gate only
+ADDR_343F6A78,"170 Main St, Apartment Zone",apartment,0.302,Call Ramesh at security
+ADDR_80C70EAF,"171 Main St, Apartment Zone",apartment,0.377,Call Anita at security
+ADDR_495AE13B,"172 Main St, Standalone House Zone",standalone house,0.059,Leave at back porch
+ADDR_E89FB134,"173 Main St, Gated Community Zone",gated community,0.488,"Security needs flat number, ask for Anita"
+ADDR_A64DFECF,"174 Main St, Apartment Zone",apartment,0.362,Code is 9327
+ADDR_6FE886D9,"175 Main St, Standalone House Zone",standalone house,0.071,Leave at back porch
+ADDR_BF043B18,"176 Main St, Standalone House Zone",standalone house,0.274,Leave at back porch
+ADDR_34616755,"177 Main St, Standalone House Zone",standalone house,0.05,Leave at back porch
+ADDR_7AA08735,"178 Main St, Gated Community Zone",gated community,0.638,"Security needs flat number, ask for Suresh"
+ADDR_82C1322A,"179 Main St, Gated Community Zone",gated community,0.618,Gate code: 6213
+ADDR_D7DF0052,"180 Main St, Industrial Zone",industrial,0.622,Enter via side gate
+ADDR_B558E0D7,"181 Main St, Gated Community Zone",gated community,0.715,Entry from North Gate only
+ADDR_5B8DA62D,"182 Main St, Standalone House Zone",standalone house,0.127,Leave at back porch
+ADDR_CEC3B7C2,"183 Main St, Apartment Zone",apartment,0.475,Call Anita at security
+ADDR_2885D7BE,"184 Main St, Industrial Zone",industrial,0.609,Enter via side gate
+ADDR_48BB145D,"185 Main St, Gated Community Zone",gated community,0.717,Entry from North Gate only
+ADDR_AC5645C8,"186 Main St, Gated Community Zone",gated community,0.443,"Security needs flat number, ask for Ramesh"
+ADDR_56529736,"187 Main St, Gated Community Zone",gated community,0.615,"Security needs flat number, ask for Ramesh"
+ADDR_B375D036,"188 Main St, Gated Community Zone",gated community,0.751,Gate code: 2646
+ADDR_F932B85E,"189 Main St, Apartment Zone",apartment,0.343,Leave with building manager
+ADDR_81B5873F,"190 Main St, Apartment Zone",apartment,0.373,Leave with building manager
+ADDR_C6DC2615,"191 Main St, Gated Community Zone",gated community,0.438,Gate code: 3868
+ADDR_B5282198,"192 Main St, Gated Community Zone",gated community,0.529,"Security needs flat number, ask for Anita"
+ADDR_0AEC10BF,"193 Main St, Standalone House Zone",standalone house,0.169,Leave at back porch
+ADDR_0240CABB,"194 Main St, Gated Community Zone",gated community,0.687,"Security needs flat number, ask for Suresh"
+ADDR_55E30744,"195 Main St, Apartment Zone",apartment,0.629,Leave with building manager
+ADDR_6D9E8638,"196 Main St, Gated Community Zone",gated community,0.5,"Security needs flat number, ask for Anita"
+ADDR_FA039EC2,"197 Main St, Standalone House Zone",standalone house,0.177,Leave at back porch
+ADDR_931CA5FF,"198 Main St, Apartment Zone",apartment,0.411,Code is 7484
+ADDR_B7372220,"199 Main St, Apartment Zone",apartment,0.465,Call Priya at security
+ADDR_B1C340CA,"200 Main St, Industrial Zone",industrial,0.32,Deliver to loading dock B

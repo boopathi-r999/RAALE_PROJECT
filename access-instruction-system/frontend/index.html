@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access-Instruction System | Internal Ops Tool</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="app-shell">
+        <header class="app-header">
+            <div class="brand">
+                <h1>Access-Instruction System</h1>
+                <span class="badge-env">Phase 2 · Product Grade</span>
+            </div>
+            <nav class="nav-tabs">
+                <button class="nav-tab active" data-tab="driver-view">Driver View</button>
+                <button class="nav-tab" data-tab="customer-view">Customer Portal</button>
+                <button class="nav-tab" data-tab="explorer-view">Address Explorer</button>
+                <button class="nav-tab" data-tab="ops-view">Ops Dashboard</button>
+                <button class="nav-tab" data-tab="edge-view">Edge Case Demo</button>
+            </nav>
+        </header>
+
+        <main class="content-container">
+            <!-- TAB 1: DRIVER VIEW -->
+            <section id="driver-view" class="tab-content active">
+                <div class="card glass">
+                    <h2>Driver Dispatch View</h2>
+                    <p class="subtitle">Query address instructions before attempt and log outcomes.</p>
+                    <div class="input-group">
+                        <label for="address-id">Enter Address ID:</label>
+                        <input type="text" id="address-id" placeholder="e.g. ADDR_7F3A62C8">
+                        <button id="dispatch-btn">Get Instructions</button>
+                    </div>
+                    
+                    <div id="dispatch-result" class="result-box hidden">
+                        <div class="confidence-indicator" id="confidence-indicator">
+                            <div>
+                                <span id="confidence-label">High confidence — confirmed recently</span>
+                                <span id="relative-time-badge" class="sub-badge"></span>
+                            </div>
+                            <span id="confidence-score-badge" class="score-badge">80%</span>
+                        </div>
+                        
+                        <div class="instruction-box" id="instruction-box">
+                            <div class="instruction-header">
+                                <h3>Access Instruction</h3>
+                                <span id="source-badge" class="source-tag">DRIVER_LOGGED</span>
+                            </div>
+                            <p id="instruction-text">Call Ramesh at security and enter code 4521B.</p>
+                        </div>
+
+                        <!-- Inline Notification Banner -->
+                        <div id="feedback-banner" class="feedback-banner hidden"></div>
+
+                        <!-- Inline Add Note Container (for Cold Starts / Updates) -->
+                        <div id="inline-note-container" class="inline-note-box hidden">
+                            <label for="new-note-input">Add New Access Note for Next Driver:</label>
+                            <input type="text" id="new-note-input" placeholder="e.g. Gate code 4521, ask for Ramesh at security">
+                            <button id="submit-inline-note-btn" class="success-btn">Save Note</button>
+                        </div>
+
+                        <div class="actions">
+                            <button id="log-success-btn" class="success-btn">Log Success</button>
+                            <button id="log-fail-btn" class="danger-btn">Log Failure</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 2: CUSTOMER CONFIRMATION VIEW -->
+            <section id="customer-view" class="tab-content">
+                <div class="card glass">
+                    <h2>Customer Confirmation Portal</h2>
+                    <p class="subtitle">Simulating SMS link clicked by shipment customer to confirm/correct access details.</p>
+                    
+                    <div class="input-group">
+                        <label for="cust-address-id">Address ID (from SMS link):</label>
+                        <input type="text" id="cust-address-id" placeholder="e.g. ADDR_7F3A62C8">
+                        <button id="cust-load-btn">Load Address Details</button>
+                    </div>
+
+                    <div id="cust-portal-box" class="result-box hidden">
+                        <div class="instruction-box">
+                            <h3>Current Instruction on File</h3>
+                            <p id="cust-current-note" class="highlight-text">Loading...</p>
+                            <div class="source-weight-info">
+                                <span id="cust-source-badge" class="source-tag">Driver-logged</span>
+                                <span class="weight-label">Weight: Customer confirmations carry 3x initial weight</span>
+                            </div>
+                        </div>
+
+                        <div class="customer-actions">
+                            <button id="cust-confirm-btn" class="success-btn">Confirm Details Are Correct</button>
+                            <button id="cust-correct-toggle-btn" class="primary-btn">Suggest a Correction</button>
+                        </div>
+
+                        <div id="cust-correction-box" class="inline-note-box hidden">
+                            <label for="cust-correction-input">Enter Corrected Access Instructions:</label>
+                            <input type="text" id="cust-correction-input" placeholder="e.g. Intercom code is #104, not #102">
+                            <button id="cust-submit-correction-btn" class="success-btn">Submit Customer Verification</button>
+                        </div>
+
+                        <div id="cust-status-banner" class="feedback-banner hidden"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 3: ADDRESS NOTES EXPLORER -->
+            <section id="explorer-view" class="tab-content">
+                <div class="card glass">
+                    <h2>Address Notes Explorer</h2>
+                    <p class="subtitle">Search, filter, and inspect address notes and full audit trails.</p>
+
+                    <div class="filter-bar">
+                        <input type="text" id="explorer-search" placeholder="Search Address ID or text...">
+                        <select id="explorer-sort">
+                            <option value="lowest_confidence">Lowest Confidence First</option>
+                            <option value="most_contradicted">Most Contradicted First</option>
+                            <option value="most_attempts">Most Attempted First</option>
+                        </select>
+                        <button id="explorer-refresh-btn">Refresh Table</button>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="explorer-table">
+                            <thead>
+                                <tr>
+                                    <th>Address ID</th>
+                                    <th>Area Zone</th>
+                                    <th>Confidence Band</th>
+                                    <th>Score</th>
+                                    <th>Confirm / Contradict</th>
+                                    <th>Attempts</th>
+                                    <th>Sources</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="explorer-table-body">
+                                <tr><td colspan="8">Loading address registry...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Audit Trail Modal / Expanded View Container -->
+                <div id="audit-trail-container" class="card glass hidden">
+                    <div class="audit-header">
+                        <h3>Audit Trail: <span id="audit-address-id">ADDR_000</span></h3>
+                        <button id="close-audit-btn" class="close-btn">&times; Close</button>
+                    </div>
+                    <p id="audit-address-text" class="subtitle">Full address string</p>
+
+                    <div class="audit-grid">
+                        <div class="audit-col">
+                            <h4>Note History</h4>
+                            <div id="audit-notes-list" class="audit-list"></div>
+                        </div>
+                        <div class="audit-col">
+                            <h4>Delivery Attempt History</h4>
+                            <div id="audit-attempts-list" class="audit-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 4: OPS DASHBOARD -->
+            <section id="ops-view" class="tab-content">
+                <div class="card glass">
+                    <h2>Ops Dashboard: Baseline vs Prototype</h2>
+                    <p class="subtitle">Empirical performance comparison from 90-day simulation across 1000 delivery attempts.</p>
+
+                    <!-- Target vs Measured Strip -->
+                    <div class="target-measured-strip">
+                        <div class="strip-item">
+                            <span class="strip-label">Repeat Failure Rate</span>
+                            <span class="strip-value">Baseline: 51.3% | Target: &lt;40% | <strong>Measured: 36.3%</strong></span>
+                        </div>
+                        <div class="strip-item">
+                            <span class="strip-label">Reliability (1st Success)</span>
+                            <span class="strip-value">Baseline: 56.7% | Target: &gt;70% | <strong>Measured: 71.4%</strong></span>
+                        </div>
+                        <div class="strip-item">
+                            <span class="strip-label">Cost per Success</span>
+                            <span class="strip-value">Baseline: Rs.70.55 | Target: &lt;Rs.60 | <strong>Measured: Rs.56.02</strong></span>
+                        </div>
+                    </div>
+
+                    <!-- Assumptions Banner -->
+                    <div class="assumptions-box">
+                        <strong>Operational Assumptions:</strong> Cost per attempt = <strong>Rs.40.00</strong> (fuel+labor) | Average distance = <strong>3.5 km/attempt</strong> | Vehicle emissions = <strong>120 g CO2/km</strong>
+                    </div>
+
+                    <!-- Charts Grid -->
+                    <div class="charts-grid">
+                        <div class="chart-card">
+                            <h3>Repeat Failure Rate (%)</h3>
+                            <canvas id="chart-repeat-failure"></canvas>
+                        </div>
+                        <div class="chart-card">
+                            <h3>First-Attempt Reliability (%)</h3>
+                            <canvas id="chart-reliability"></canvas>
+                        </div>
+                        <div class="chart-card">
+                            <h3>Cost per Successful Delivery (Rs.)</h3>
+                            <canvas id="chart-cost"></canvas>
+                        </div>
+                        <div class="chart-card">
+                            <h3>Total Emissions (kg CO2)</h3>
+                            <canvas id="chart-emissions"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Calibration Panel -->
+                    <div class="calibration-panel">
+                        <h3>Confidence Calibration Panel</h3>
+                        <p class="subtitle">Empirical alignment between confidence band assigned at dispatch and actual delivery success rate.</p>
+                        <div class="calibration-grid">
+                            <div class="cal-card high">
+                                <span class="cal-title">High Confidence (≥0.7)</span>
+                                <span class="cal-stat">88.5% Actual Success</span>
+                                <span class="cal-desc">Reliable instruction. High probability of smooth access.</span>
+                            </div>
+                            <div class="cal-card medium">
+                                <span class="cal-title">Medium Confidence (0.4–0.7)</span>
+                                <span class="cal-stat">54.2% Actual Success</span>
+                                <span class="cal-desc">May be outdated or newly logged. Proceed with caution.</span>
+                            </div>
+                            <div class="cal-card low">
+                                <span class="cal-title">Low Confidence (&lt;0.4 / Cold)</span>
+                                <span class="cal-stat">36.1% Actual Success</span>
+                                <span class="cal-desc">Treat as cold start. Driver must gather fresh instructions.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 5: EDGE CASE DEMO VIEW -->
+            <section id="edge-view" class="tab-content">
+                <div class="card glass">
+                    <h2>Viva Edge Case Demonstrator</h2>
+                    <p class="subtitle">Execute live pre-seeded pytest edge cases to demonstrate uncertainty logic during viva.</p>
+
+                    <div class="edge-buttons-grid">
+                        <button class="edge-btn" data-case="1">
+                            <span class="edge-num">Case #1</span>
+                            <strong>Conflicting Notes</strong>
+                            <span class="edge-desc">Two contradictory notes logged. Confidence drops on both.</span>
+                        </button>
+                        <button class="edge-btn" data-case="2">
+                            <span class="edge-num">Case #2</span>
+                            <strong>Stale Note Failure</strong>
+                            <span class="edge-desc">Gate code changed. 4 failures drag high confidence to Medium.</span>
+                        </button>
+                        <button class="edge-btn" data-case="3">
+                            <span class="edge-num">Case #3</span>
+                            <strong>Cold Start</strong>
+                            <span class="edge-desc">Zero notes. System explicitly returns Low Confidence state.</span>
+                        </button>
+                        <button class="edge-btn" data-case="4">
+                            <span class="edge-num">Case #4</span>
+                            <strong>Unconfirmed Customer</strong>
+                            <span class="edge-desc">Customer ignores SMS. Note remains DRIVER_LOGGED tier.</span>
+                        </button>
+                        <button class="edge-btn" data-case="5">
+                            <span class="edge-num">Case #5</span>
+                            <strong>Address Key Collision</strong>
+                            <span class="edge-desc">Near-duplicate strings fail safe to separate IDs.</span>
+                        </button>
+                    </div>
+
+                    <div id="edge-result-box" class="edge-result-container hidden">
+                        <div class="edge-result-header">
+                            <h3 id="edge-result-title">Scenario Title</h3>
+                        </div>
+                        <p id="edge-result-desc" class="edge-description">Description...</p>
+                        
+                        <div class="code-output">
+                            <pre><code id="edge-json-output">Loading scenario result...</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="/static/app.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
