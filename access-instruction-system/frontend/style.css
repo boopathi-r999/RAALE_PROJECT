@@ -557,3 +557,223 @@ button:hover {
     font-size: 0.85rem;
     color: #a7f3d0;
 }
+
+/* Duplicate flag badge in explorer table */
+.dup-flag {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    background: rgba(245, 158, 11, 0.25);
+    color: #fcd34d;
+    border: 1px solid rgba(245, 158, 11, 0.4);
+    margin-left: 0.4rem;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background 0.2s;
+}
+.dup-flag:hover { background: rgba(245, 158, 11, 0.45); }
+
+/* Duplicate decision bar */
+.dup-decision-bar {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--glass-border);
+}
+
+/* Emissions mode toggle group */
+.emissions-toggle-bar {
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.25rem;
+    background: rgba(15, 23, 42, 0.6);
+    border-radius: 10px;
+    border: 1px solid var(--glass-border);
+}
+
+.emissions-toggle-bar h3 {
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-muted);
+}
+
+.toggle-group {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.toggle-btn {
+    background: rgba(30, 41, 59, 0.8);
+    border: 1px solid var(--glass-border);
+    color: var(--text-muted);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
+}
+
+.toggle-btn.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    box-shadow: 0 0 12px rgba(59, 130, 246, 0.35);
+}
+
+.toggle-btn:hover:not(.active) {
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--text-main);
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+/* Feedback banner types */
+.feedback-banner.success {
+    background: rgba(16, 185, 129, 0.15);
+    border-color: rgba(16, 185, 129, 0.35);
+    color: #6ee7b7;
+}
+.feedback-banner.warning {
+    background: rgba(245, 158, 11, 0.15);
+    border-color: rgba(245, 158, 11, 0.35);
+    color: #fcd34d;
+}
+.feedback-banner.info {
+    background: rgba(59, 130, 246, 0.15);
+    border-color: rgba(59, 130, 246, 0.35);
+    color: #93c5fd;
+}
+
+/* Edge case #6 — new badge highlight */
+.edge-btn-new {
+    border-color: rgba(167, 139, 250, 0.4);
+    background: rgba(167, 139, 250, 0.08);
+}
+.edge-btn-new:hover {
+    border-color: #a78bfa;
+    background: rgba(167, 139, 250, 0.15);
+}
+.edge-btn-new .edge-num { color: #a78bfa; }
+
+/* Audit col h5 */
+.audit-col h5 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin: 0.5rem 0 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Table responsive wrapper */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Realism & Driver Control Styles */
+.dispatch-control-row {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+}
+
+.styled-select {
+    width: 100%;
+    padding: 0.65rem 0.85rem;
+    background: #0f172a;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    color: var(--text-main);
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.styled-select:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+.quick-samples-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+.sample-label {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+.chips-container {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+}
+.sample-chip {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    color: var(--text-main);
+    padding: 0.25rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.sample-chip:hover {
+    background: rgba(59, 130, 246, 0.2);
+    border-color: var(--primary);
+    color: #60a5fa;
+}
+
+.address-banner {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+}
+.address-banner-top {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.4rem;
+}
+.address-banner h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #f8fafc;
+    line-height: 1.4;
+}
+
+.section-title-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.area-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.area-card {
+    background: rgba(15, 23, 42, 0.5);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    padding: 1rem;
+    border-top: 3px solid var(--primary);
+}
+.area-card h4 {
+    font-size: 0.95rem;
+    text-transform: capitalize;
+    color: var(--text-main);
+    margin-bottom: 0.5rem;
+}
+.area-stat-val {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #f8fafc;
+}
+

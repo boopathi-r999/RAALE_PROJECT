@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Access-Instruction System | Internal Ops Tool</title>
+    <meta name="description" content="Access-Instruction Capture & Reuse System — last-mile delivery ops tool with confidence-scored access notes, calibration reporting, and duplicate address management.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="/static/style.css">
-    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div class="background-animation"></div>
@@ -15,30 +16,74 @@
         <header class="app-header">
             <div class="brand">
                 <h1>Access-Instruction System</h1>
-                <span class="badge-env">Phase 2 · Product Grade</span>
+                <span class="badge-env">Review 2 · Final</span>
             </div>
-            <nav class="nav-tabs">
-                <button class="nav-tab active" data-tab="driver-view">Driver View</button>
-                <button class="nav-tab" data-tab="customer-view">Customer Portal</button>
-                <button class="nav-tab" data-tab="explorer-view">Address Explorer</button>
-                <button class="nav-tab" data-tab="ops-view">Ops Dashboard</button>
-                <button class="nav-tab" data-tab="edge-view">Edge Case Demo</button>
+            <nav class="nav-tabs" role="navigation" aria-label="Main navigation">
+                <button class="nav-tab active" data-tab="driver-view" id="tab-driver">Driver View</button>
+                <button class="nav-tab" data-tab="customer-view" id="tab-customer">Customer Portal</button>
+                <button class="nav-tab" data-tab="explorer-view" id="tab-explorer">Address Explorer</button>
+                <button class="nav-tab" data-tab="ops-view" id="tab-ops">Ops Dashboard</button>
+                <button class="nav-tab" data-tab="edge-view" id="tab-edge">Edge Case Demo</button>
             </nav>
         </header>
 
         <main class="content-container">
             <!-- TAB 1: DRIVER VIEW -->
-            <section id="driver-view" class="tab-content active">
+            <section id="driver-view" class="tab-content active" role="main">
                 <div class="card glass">
                     <h2>Driver Dispatch View</h2>
-                    <p class="subtitle">Query address instructions before attempt and log outcomes.</p>
-                    <div class="input-group">
-                        <label for="address-id">Enter Address ID:</label>
-                        <input type="text" id="address-id" placeholder="e.g. ADDR_7F3A62C8">
-                        <button id="dispatch-btn">Get Instructions</button>
+                    <p class="subtitle">Query address instructions before attempt and log outcomes with authentic driver attribution.</p>
+                    
+                    <div class="dispatch-control-row">
+                        <div class="input-group" style="flex: 2; min-width: 260px;">
+                            <label for="address-id">Delivery Address ID / Lookup:</label>
+                            <input type="text" id="address-id" placeholder="e.g. ADDR_XXXX or click a sample below" maxlength="100">
+                        </div>
+                        <div class="input-group" style="flex: 1; min-width: 180px;">
+                            <label for="driver-select">Assigned Driver:</label>
+                            <select id="driver-select" class="styled-select">
+                                <option value="R. Suresh">R. Suresh</option>
+                                <option value="K. Priya">K. Priya</option>
+                                <option value="M. Rajesh">M. Rajesh</option>
+                                <option value="A. Vignesh">A. Vignesh</option>
+                                <option value="S. Anitha">S. Anitha</option>
+                                <option value="T. Karthik">T. Karthik</option>
+                                <option value="V. Deepa">V. Deepa</option>
+                                <option value="N. Murugan">N. Murugan</option>
+                                <option value="P. Lakshmi">P. Lakshmi</option>
+                                <option value="G. Prakash">G. Prakash</option>
+                            </select>
+                        </div>
+                        <div class="input-group" style="flex: 1; min-width: 160px;">
+                            <label for="slot-select">SLA Window:</label>
+                            <select id="slot-select" class="styled-select">
+                                <option value="10:00-13:00 slot">10:00-13:00 slot</option>
+                                <option value="14:00-17:00 slot">14:00-17:00 slot</option>
+                                <option value="17:00-20:00 slot">17:00-20:00 slot</option>
+                            </select>
+                        </div>
+                        <div style="align-self: flex-end;">
+                            <button id="dispatch-btn">Get Instructions</button>
+                        </div>
+                    </div>
+
+                    <!-- Quick Sample Address Chips -->
+                    <div class="quick-samples-bar">
+                        <span class="sample-label">Quick sample addresses:</span>
+                        <div id="quick-address-chips" class="chips-container"></div>
                     </div>
                     
                     <div id="dispatch-result" class="result-box hidden">
+                        <!-- Prominent Human-Readable Address Header -->
+                        <div class="address-banner">
+                            <div class="address-banner-top">
+                                <span class="badge-env" id="driver-addr-id-badge">ADDR_XXXX</span>
+                                <span id="driver-area-badge" class="source-tag driver">Apartment</span>
+                                <span id="driver-sla-indicator" class="source-tag customer">In Promised SLA Slot</span>
+                            </div>
+                            <h3 id="driver-human-address">Loading address description...</h3>
+                        </div>
+
                         <div class="confidence-indicator" id="confidence-indicator">
                             <div>
                                 <span id="confidence-label">High confidence — confirmed recently</span>
@@ -49,20 +94,33 @@
                         
                         <div class="instruction-box" id="instruction-box">
                             <div class="instruction-header">
-                                <h3>Access Instruction</h3>
+                                <h3>Access Instruction (Driver-Facing Guidance)</h3>
                                 <span id="source-badge" class="source-tag">DRIVER_LOGGED</span>
                             </div>
-                            <p id="instruction-text">Call Ramesh at security and enter code 4521B.</p>
+                            <p id="instruction-text">Call Ramanathan at security and enter code 4521B.</p>
                         </div>
 
                         <!-- Inline Notification Banner -->
                         <div id="feedback-banner" class="feedback-banner hidden"></div>
 
-                        <!-- Inline Add Note Container (for Cold Starts / Updates) -->
+                        <!-- Inline Add Note Container -->
                         <div id="inline-note-container" class="inline-note-box hidden">
                             <label for="new-note-input">Add New Access Note for Next Driver:</label>
-                            <input type="text" id="new-note-input" placeholder="e.g. Gate code 4521, ask for Ramesh at security">
+                            <input type="text" id="new-note-input" placeholder="e.g. Gate code changed to 8821; leave parcel at Reception desk" maxlength="500">
                             <button id="submit-inline-note-btn" class="success-btn">Save Note</button>
+                        </div>
+
+                        <!-- Send Customer Notification -->
+                        <div id="notify-container" class="inline-note-box hidden">
+                            <label for="notify-recipient">Send Confirmation SMS to Customer (optional):</label>
+                            <div class="input-group" style="margin-top: 0.5rem;">
+                                <input type="text" id="notify-recipient" placeholder="e.g. +919876543210 (or leave blank for simulated)">
+                                <button id="send-notify-btn" class="primary-btn">Send Notification</button>
+                            </div>
+                            <small style="color: var(--text-muted); margin-top: 0.25rem; display:block;">
+                                NOTIFY_MODE=simulated — message logged but not sent externally. 
+                                See <a href="#" style="color:var(--accent)">notification_channel_plan.md</a> to enable real SMS.
+                            </small>
                         </div>
 
                         <div class="actions">
@@ -74,14 +132,14 @@
             </section>
 
             <!-- TAB 2: CUSTOMER CONFIRMATION VIEW -->
-            <section id="customer-view" class="tab-content">
+            <section id="customer-view" class="tab-content" role="main">
                 <div class="card glass">
                     <h2>Customer Confirmation Portal</h2>
                     <p class="subtitle">Simulating SMS link clicked by shipment customer to confirm/correct access details.</p>
                     
                     <div class="input-group">
                         <label for="cust-address-id">Address ID (from SMS link):</label>
-                        <input type="text" id="cust-address-id" placeholder="e.g. ADDR_7F3A62C8">
+                        <input type="text" id="cust-address-id" placeholder="e.g. ADDR_7F3A62C8" maxlength="100">
                         <button id="cust-load-btn">Load Address Details</button>
                     </div>
 
@@ -102,7 +160,7 @@
 
                         <div id="cust-correction-box" class="inline-note-box hidden">
                             <label for="cust-correction-input">Enter Corrected Access Instructions:</label>
-                            <input type="text" id="cust-correction-input" placeholder="e.g. Intercom code is #104, not #102">
+                            <input type="text" id="cust-correction-input" placeholder="e.g. Intercom code is #104, not #102" maxlength="500">
                             <button id="cust-submit-correction-btn" class="success-btn">Submit Customer Verification</button>
                         </div>
 
@@ -112,10 +170,10 @@
             </section>
 
             <!-- TAB 3: ADDRESS NOTES EXPLORER -->
-            <section id="explorer-view" class="tab-content">
+            <section id="explorer-view" class="tab-content" role="main">
                 <div class="card glass">
                     <h2>Address Notes Explorer</h2>
-                    <p class="subtitle">Search, filter, and inspect address notes and full audit trails.</p>
+                    <p class="subtitle">Search, filter, and inspect address notes and full audit trails. Orange badges indicate potential duplicates awaiting review.</p>
 
                     <div class="filter-bar">
                         <input type="text" id="explorer-search" placeholder="Search Address ID or text...">
@@ -131,7 +189,7 @@
                         <table class="explorer-table">
                             <thead>
                                 <tr>
-                                    <th>Address ID</th>
+                                    <th>Delivery Address & Details</th>
                                     <th>Area Zone</th>
                                     <th>Confidence Band</th>
                                     <th>Score</th>
@@ -148,7 +206,7 @@
                     </div>
                 </div>
 
-                <!-- Audit Trail Modal / Expanded View Container -->
+                <!-- Audit Trail Modal -->
                 <div id="audit-trail-container" class="card glass hidden">
                     <div class="audit-header">
                         <h3>Audit Trail: <span id="audit-address-id">ADDR_000</span></h3>
@@ -167,74 +225,269 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Duplicate Review Panel -->
+                <div id="duplicate-review-panel" class="card glass hidden">
+                    <div class="audit-header">
+                        <h3>⚠ Duplicate Review — Ops Decision Required</h3>
+                        <button id="close-dup-panel-btn" class="close-btn">&times; Close</button>
+                    </div>
+                    <p class="subtitle">This pair has been flagged as possible duplicates. Compare below and make an explicit decision. The system will NEVER auto-merge.</p>
+
+                    <div class="audit-grid" id="dup-comparison-grid">
+                        <div class="audit-col" id="dup-col-a">
+                            <h4>Address A</h4>
+                            <div id="dup-detail-a" class="audit-list"></div>
+                        </div>
+                        <div class="audit-col" id="dup-col-b">
+                            <h4>Address B</h4>
+                            <div id="dup-detail-b" class="audit-list"></div>
+                        </div>
+                    </div>
+
+                    <div class="dup-decision-bar">
+                        <div class="input-group" style="margin-bottom: 0.5rem;">
+                            <label for="dup-manager-id">Ops Manager ID:</label>
+                            <input type="text" id="dup-manager-id" placeholder="e.g. OPS_MANAGER_1" style="max-width: 220px;">
+                        </div>
+                        <div class="actions">
+                            <button id="dup-merge-btn" class="danger-btn" title="Merge — archive one address under the other">Merge (Keep A as canonical)</button>
+                            <button id="dup-separate-btn" class="success-btn" title="Keep separate — pair won't re-flag">Keep Separate (Permanently)</button>
+                        </div>
+                        <div id="dup-decision-banner" class="feedback-banner hidden"></div>
+                    </div>
+
+                    <input type="hidden" id="dup-current-log-id" value="">
+                    <input type="hidden" id="dup-addr-id-a" value="">
+                    <input type="hidden" id="dup-addr-id-b" value="">
+                </div>
             </section>
 
             <!-- TAB 4: OPS DASHBOARD -->
-            <section id="ops-view" class="tab-content">
+            <section id="ops-view" class="tab-content" role="main">
                 <div class="card glass">
-                    <h2>Ops Dashboard: Baseline vs Prototype</h2>
-                    <p class="subtitle">Empirical performance comparison from 90-day simulation across 1000 delivery attempts.</p>
+                    <h2>Ops Dashboard: Multi-Seed Baseline vs Prototype</h2>
+                    <p class="subtitle">Results averaged across multi-seed Monte Carlo simulations. Error bars = 95% confidence interval (normal approximation, z=1.96).</p>
 
-                    <!-- Target vs Measured Strip -->
-                    <div class="target-measured-strip">
+                    <!-- Stats strip -->
+                    <div id="multi-seed-strip" class="target-measured-strip">
                         <div class="strip-item">
+                            <span class="strip-label">Statistical Method</span>
+                            <span class="strip-value">20 seeds × 1000 attempts each arm. 95% CI = mean ± 1.96·(SD/√n). Documented in evaluation_report.md.</span>
+                        </div>
+                        <div class="strip-item" id="strip-rfr">
                             <span class="strip-label">Repeat Failure Rate</span>
-                            <span class="strip-value">Baseline: 51.3% | Target: &lt;40% | <strong>Measured: 36.3%</strong></span>
+                            <span class="strip-value">Loading multi-seed results…</span>
                         </div>
-                        <div class="strip-item">
+                        <div class="strip-item" id="strip-rel">
                             <span class="strip-label">Reliability (1st Success)</span>
-                            <span class="strip-value">Baseline: 56.7% | Target: &gt;70% | <strong>Measured: 71.4%</strong></span>
+                            <span class="strip-value">Loading multi-seed results…</span>
                         </div>
-                        <div class="strip-item">
+                        <div class="strip-item" id="strip-cost">
                             <span class="strip-label">Cost per Success</span>
-                            <span class="strip-value">Baseline: Rs.70.55 | Target: &lt;Rs.60 | <strong>Measured: Rs.56.02</strong></span>
+                            <span class="strip-value">Loading multi-seed results…</span>
                         </div>
                     </div>
 
                     <!-- Assumptions Banner -->
                     <div class="assumptions-box">
-                        <strong>Operational Assumptions:</strong> Cost per attempt = <strong>Rs.40.00</strong> (fuel+labor) | Average distance = <strong>3.5 km/attempt</strong> | Vehicle emissions = <strong>120 g CO2/km</strong>
+                        <strong>Operational Assumptions:</strong> Cost per attempt = <strong>Rs.40.00</strong> (fuel+labor) | Average distance = <strong>3.5 km/attempt</strong> | Vehicle emissions = <strong>120 g CO₂/km</strong>
+                        <span style="margin-left:1rem; color:var(--text-muted);">All constants in <code>simulation/config.py</code></span>
+                    </div>
+
+                    <!-- Emissions mode toggle -->
+                    <div class="emissions-toggle-bar">
+                        <h3>Emissions Scenario</h3>
+                        <div class="toggle-group">
+                            <button class="toggle-btn active" id="toggle-fixed" data-mode="fixed">Mode A: Fixed Volume (Fair Comparison)</button>
+                            <button class="toggle-btn" id="toggle-responsive" data-mode="responsive">Mode B: Responsive Volume (Real Saving)</button>
+                        </div>
+                        <p id="emissions-mode-desc" class="subtitle" style="margin-top:0.5rem;">
+                            Mode A: Both arms run exactly 1000 attempts — fair like-for-like reliability comparison.
+                        </p>
                     </div>
 
                     <!-- Charts Grid -->
                     <div class="charts-grid">
                         <div class="chart-card">
-                            <h3>Repeat Failure Rate (%)</h3>
+                            <h3>Repeat Failure Rate (%) — Mean ± CI</h3>
                             <canvas id="chart-repeat-failure"></canvas>
                         </div>
                         <div class="chart-card">
-                            <h3>First-Attempt Reliability (%)</h3>
+                            <h3>First-Attempt Reliability (%) — Mean ± CI</h3>
                             <canvas id="chart-reliability"></canvas>
                         </div>
                         <div class="chart-card">
-                            <h3>Cost per Successful Delivery (Rs.)</h3>
+                            <h3>Cost per Successful Delivery (Rs.) — Mean ± CI</h3>
                             <canvas id="chart-cost"></canvas>
                         </div>
                         <div class="chart-card">
-                            <h3>Total Emissions (kg CO2)</h3>
+                            <h3>Total Emissions (kg CO₂) — <span id="emissions-chart-mode-label">Mode A</span></h3>
                             <canvas id="chart-emissions"></canvas>
                         </div>
                     </div>
 
-                    <!-- Calibration Panel -->
+                    <!-- Reliability Diagram / Calibration Panel -->
                     <div class="calibration-panel">
-                        <h3>Confidence Calibration Panel</h3>
-                        <p class="subtitle">Empirical alignment between confidence band assigned at dispatch and actual delivery success rate.</p>
+                        <h3>Confidence Calibration — Reliability Diagram</h3>
+                        <p class="subtitle">Observed success rate vs predicted confidence band across all 20 seeds combined. Points on the diagonal = perfect calibration.</p>
                         <div class="calibration-grid">
-                            <div class="cal-card high">
+                            <div class="cal-card high" id="cal-high">
                                 <span class="cal-title">High Confidence (≥0.7)</span>
-                                <span class="cal-stat">88.5% Actual Success</span>
+                                <span class="cal-stat" id="cal-high-stat">~88% Actual Success</span>
                                 <span class="cal-desc">Reliable instruction. High probability of smooth access.</span>
                             </div>
-                            <div class="cal-card medium">
+                            <div class="cal-card medium" id="cal-medium">
                                 <span class="cal-title">Medium Confidence (0.4–0.7)</span>
-                                <span class="cal-stat">54.2% Actual Success</span>
+                                <span class="cal-stat" id="cal-medium-stat">~54% Actual Success</span>
                                 <span class="cal-desc">May be outdated or newly logged. Proceed with caution.</span>
                             </div>
-                            <div class="cal-card low">
+                            <div class="cal-card low" id="cal-low">
                                 <span class="cal-title">Low Confidence (&lt;0.4 / Cold)</span>
-                                <span class="cal-stat">36.1% Actual Success</span>
+                                <span class="cal-stat" id="cal-low-stat">~36% Actual Success</span>
                                 <span class="cal-desc">Treat as cold start. Driver must gather fresh instructions.</span>
+                            </div>
+                        </div>
+                        <p style="color:var(--text-muted); font-size:0.8rem; margin-top:0.5rem;">
+                            Source: <code>evaluation/reliability_diagram.png</code> — computed from multi-seed simulation, not hand-typed.
+                        </p>
+                    </div>
+
+                    <!-- Area-Level Breakdown -->
+                    <div class="area-breakdown-panel" style="margin-top:2rem;">
+                        <div class="section-title-row">
+                            <h3>Area-Level Failure Breakdown</h3>
+                            <span class="sub-badge">Heterogeneous Last-Mile Difficulties</span>
+                        </div>
+                        <p class="subtitle">Failure patterns are non-uniform across Indian urban archetypes. Gated communities exhibit highest initial barrier friction.</p>
+                        <div id="area-breakdown-grid" class="area-cards-grid">
+                            <div class="strip-item">Loading area metrics...</div>
+                        </div>
+                    </div>
+
+                    <!-- Driver Leaderboard -->
+                    <div class="leaderboard-panel" style="margin-top:2rem;">
+                        <div class="section-title-row">
+                            <h3>Driver Operations Leaderboard</h3>
+                            <span class="sub-badge">20 Named Drivers</span>
+                        </div>
+                        <p class="subtitle">Driver first-attempt reliability, repeat failure rate, and SLA delivery window adherence.</p>
+                        <div class="table-responsive">
+                            <table class="explorer-table">
+                                <thead>
+                                    <tr>
+                                        <th>Driver Name</th>
+                                        <th>Total Attempts</th>
+                                        <th>First-Attempt Success</th>
+                                        <th>Repeat Failure Rate</th>
+                                        <th>SLA Adherence</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="driver-leaderboard-body">
+                                    <tr><td colspan="5">Loading driver leaderboard...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Machine Learning Model Insights (AI Immersion Component) -->
+                    <div class="ml-insights-panel" style="margin-top:2.5rem; border-top: 1px solid var(--glass-border); padding-top:2rem;">
+                        <div class="section-title-row">
+                            <h3>Machine Learning Model Insights & Risk Forecast</h3>
+                            <span class="badge-env" style="background:rgba(147, 51, 234, 0.2); color:#c084fc; border-color:rgba(147, 51, 234, 0.3);">✦ AI Immersion Component</span>
+                        </div>
+                        
+                        <div class="assumptions-box" style="border-left-color: #a855f7; margin-bottom: 1.5rem;">
+                            <strong>Educational Demonstration & Strict Separation Principle:</strong>
+                            <p style="margin-top:0.3rem; font-size:0.9rem; color:var(--text-main);">
+                                The <strong>Delivery Success Predictor</strong> is an operational supervised ML model trained on synthetic historical attempt features (area archetype, note presence, temporal slots, prior address & driver failure rates). It acts as an analytical risk forecast for dispatch planners, strictly separated from the real-time access note confidence. It was trained on synthetic data as an educational demonstration of machine learning integration, not a production-validated commercial risk model.
+                            </p>
+                        </div>
+
+                        <!-- Model Comparison Table -->
+                        <div class="table-responsive" style="margin-bottom:1.5rem;">
+                            <table class="explorer-table">
+                                <thead>
+                                    <tr>
+                                        <th>Evaluation Metric (80/20 Holdout)</th>
+                                        <th>Logistic Regression (Linear Baseline)</th>
+                                        <th>Random Forest (Selected Ensemble)</th>
+                                        <th>Architecture Justification</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Accuracy</strong></td>
+                                        <td>75.83%</td>
+                                        <td><strong style="color:var(--success)">78.00%</strong></td>
+                                        <td rowspan="5" style="vertical-align:middle; font-size:0.85rem; color:var(--text-muted); max-width:320px;">
+                                            Random Forest captures non-linear interactions between area access constraints (gated communities / industrial parks) and cumulative address failure history without assuming linear log-odds.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Precision</strong></td>
+                                        <td>79.41%</td>
+                                        <td><strong style="color:var(--success)">81.00%</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Recall</strong></td>
+                                        <td>90.72%</td>
+                                        <td><strong style="color:var(--success)">91.63%</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>F1 Score</strong></td>
+                                        <td>0.8469</td>
+                                        <td><strong style="color:var(--success)">0.8599</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>ROC-AUC</strong></td>
+                                        <td>0.7372</td>
+                                        <td><strong style="color:var(--success)">0.7589</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Visual Artifacts Showcase -->
+                        <div class="charts-grid" style="margin-bottom:1.5rem;">
+                            <div class="chart-card">
+                                <h3>Feature Importance (Gini Score)</h3>
+                                <img src="/ml/artifacts/feature_importance.png" alt="Feature Importance Chart" style="width:100%; border-radius:8px; margin-top:0.5rem; display:block;" onerror="this.style.display='none'">
+                                <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">Top signals: prior address failure rate, note presence, and days since last success.</p>
+                            </div>
+                            <div class="chart-card">
+                                <h3>ROC Curve & Confusion Matrix</h3>
+                                <img src="/ml/artifacts/model_evaluation.png" alt="ROC & Confusion Matrix" style="width:100%; border-radius:8px; margin-top:0.5rem; display:block;" onerror="this.style.display='none'">
+                                <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">Tested on 600 unseen delivery attempts with zero data leakage.</p>
+                            </div>
+                        </div>
+
+                        <!-- Interactive Address Risk Evaluator -->
+                        <div class="card glass" style="background: rgba(15, 23, 42, 0.5); border: 1px solid var(--glass-border); padding: 1.25rem;">
+                            <h4 style="margin-bottom:0.5rem; color:#c084fc;">Interactive Risk Forecast & Confidence Comparison</h4>
+                            <p class="subtitle" style="font-size:0.85rem;">Test how the rule-based note confidence and the supervised ML attempt risk model compare for any address.</p>
+                            
+                            <div class="input-group" style="display:flex; gap:0.5rem; max-width:600px; margin-top:0.75rem;">
+                                <input type="text" id="ml-eval-address-id" placeholder="Enter Address ID (e.g. ADDR_XXXX)" style="flex:1;">
+                                <button id="ml-eval-btn" class="primary-btn">Forecast Risk</button>
+                            </div>
+
+                            <div id="ml-eval-result" class="result-box hidden" style="margin-top:1rem;">
+                                <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:1rem; margin-bottom:1rem;">
+                                    <div class="cal-card" style="border-left: 4px solid var(--primary);">
+                                        <span class="cal-title" style="color:var(--text-muted);">Driver Signal (Rule-Based)</span>
+                                        <span class="cal-stat" id="ml-eval-conf-band" style="color:#60a5fa;">High</span>
+                                        <span class="cal-desc">Laplace-smoothed note reliability with 30-day time decay. Used by drivers.</span>
+                                    </div>
+                                    <div class="cal-card" style="border-left: 4px solid #a855f7;">
+                                        <span class="cal-title" style="color:var(--text-muted);">Ops Forecast (Trained Model)</span>
+                                        <span class="cal-stat" id="ml-eval-risk-score" style="color:#c084fc;">~25% Risk</span>
+                                        <span class="cal-desc" id="ml-eval-note-text">Statistical estimate from historical patterns.</span>
+                                    </div>
+                                </div>
+                                <div class="assumptions-box" style="margin:0; font-size:0.85rem; border-left-color:#38bdf8;">
+                                    <strong>Why Can These Differ?</strong> The rule-based confidence measures whether the <em>access instructions are accurate and fresh</em>. The ML model predicts <em>whether this specific attempt will succeed today</em> (accounting for time-of-day slots, driver track record, and gate lock history). Ops uses both to plan contingency resourcing.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -242,36 +495,41 @@
             </section>
 
             <!-- TAB 5: EDGE CASE DEMO VIEW -->
-            <section id="edge-view" class="tab-content">
+            <section id="edge-view" class="tab-content" role="main">
                 <div class="card glass">
                     <h2>Viva Edge Case Demonstrator</h2>
-                    <p class="subtitle">Execute live pre-seeded pytest edge cases to demonstrate uncertainty logic during viva.</p>
+                    <p class="subtitle">Execute live pre-seeded edge cases to demonstrate uncertainty logic. All 6 cases are backed by passing pytest tests.</p>
 
                     <div class="edge-buttons-grid">
-                        <button class="edge-btn" data-case="1">
+                        <button class="edge-btn" data-case="1" id="edge-btn-1">
                             <span class="edge-num">Case #1</span>
                             <strong>Conflicting Notes</strong>
                             <span class="edge-desc">Two contradictory notes logged. Confidence drops on both.</span>
                         </button>
-                        <button class="edge-btn" data-case="2">
+                        <button class="edge-btn" data-case="2" id="edge-btn-2">
                             <span class="edge-num">Case #2</span>
                             <strong>Stale Note Failure</strong>
                             <span class="edge-desc">Gate code changed. 4 failures drag high confidence to Medium.</span>
                         </button>
-                        <button class="edge-btn" data-case="3">
+                        <button class="edge-btn" data-case="3" id="edge-btn-3">
                             <span class="edge-num">Case #3</span>
                             <strong>Cold Start</strong>
                             <span class="edge-desc">Zero notes. System explicitly returns Low Confidence state.</span>
                         </button>
-                        <button class="edge-btn" data-case="4">
+                        <button class="edge-btn" data-case="4" id="edge-btn-4">
                             <span class="edge-num">Case #4</span>
                             <strong>Unconfirmed Customer</strong>
                             <span class="edge-desc">Customer ignores SMS. Note remains DRIVER_LOGGED tier.</span>
                         </button>
-                        <button class="edge-btn" data-case="5">
+                        <button class="edge-btn" data-case="5" id="edge-btn-5">
                             <span class="edge-num">Case #5</span>
                             <strong>Address Key Collision</strong>
                             <span class="edge-desc">Near-duplicate strings fail safe to separate IDs.</span>
+                        </button>
+                        <button class="edge-btn edge-btn-new" data-case="6" id="edge-btn-6">
+                            <span class="edge-num">Case #6 ✦ New</span>
+                            <strong>Duplicate Merge Review</strong>
+                            <span class="edge-desc">High-similarity pair flagged. NOT merged until ops explicitly decides.</span>
                         </button>
                     </div>
 
@@ -291,6 +549,6 @@
     </div>
 
     <script src="/static/app.js"></script>
-    <script src="app.js"></script>
+
 </body>
 </html>

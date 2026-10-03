@@ -1,0 +1,42 @@
+{
+  "model_type": "RandomForestClassifier",
+  "baseline_model_type": "LogisticRegression",
+  "trained_at": "2026-10-03T17:05:42.815248",
+  "training_samples": 2400,
+  "test_samples": 600,
+  "metrics": {
+    "random_forest": {
+      "accuracy": 0.78,
+      "precision": 0.81,
+      "recall": 0.916289592760181,
+      "f1": 0.8598726114649682,
+      "roc_auc": 0.7589352196574832
+    },
+    "logistic_regression": {
+      "accuracy": 0.7583333333333333,
+      "precision": 0.7940594059405941,
+      "recall": 0.9072398190045249,
+      "f1": 0.8468848996832101,
+      "roc_auc": 0.737184260266911
+    }
+  },
+  "feature_names": [
+    "area_apartment",
+    "area_gated community",
+    "area_industrial",
+    "area_standalone house",
+    "slot_10:00-13:00 slot",
+    "slot_14:00-17:00 slot",
+    "slot_17:00-20:00 slot",
+    "conf_band_High",
+    "conf_band_Low",
+    "conf_band_Medium",
+    "conf_band_None",
+    "day_of_week",
+    "has_note",
+    "days_since_last_success",
+    "addr_hist_fail_rate",
+    "driver_hist_success_rate"
+  ],
+  "selected_reason": "Random Forest provides superior ROC-AUC and F1 score by modeling non-linear interactions between area access constraints, temporal delivery slots, and past address failure patterns."
+}

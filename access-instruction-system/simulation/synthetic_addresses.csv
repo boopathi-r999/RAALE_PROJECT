@@ -1,201 +1,401 @@
 address_id,raw_text,area,true_difficulty,true_instruction
-ADDR_7F3A62C8,"1 Main St, Gated Community Zone",gated community,0.679,Gate code: 3286
-ADDR_25A4D9DE,"2 Main St, Gated Community Zone",gated community,0.613,Entry from North Gate only
-ADDR_BD23C5AB,"3 Main St, Apartment Zone",apartment,0.411,Code is 1434
-ADDR_21E90CCF,"4 Main St, Industrial Zone",industrial,0.49,Ask for warehouse manager
-ADDR_516BBFE5,"5 Main St, Apartment Zone",apartment,0.196,Call Anita at security
-ADDR_22E65630,"6 Main St, Apartment Zone",apartment,0.253,Call Priya at security
-ADDR_08497A26,"7 Main St, Apartment Zone",apartment,0.281,Leave with building manager
-ADDR_43ADEE87,"8 Main St, Industrial Zone",industrial,0.515,Ask for warehouse manager
-ADDR_C07CD5FD,"9 Main St, Apartment Zone",apartment,0.312,Leave with building manager
-ADDR_29FB2DC4,"10 Main St, Apartment Zone",apartment,0.486,Call Ramesh at security
-ADDR_B617FD66,"11 Main St, Standalone House Zone",standalone house,0.165,Leave at back porch
-ADDR_411CBE09,"12 Main St, Apartment Zone",apartment,0.277,Call Ramesh at security
-ADDR_758D269D,"13 Main St, Gated Community Zone",gated community,0.677,Gate code: 8573
-ADDR_A598CE20,"14 Main St, Apartment Zone",apartment,0.492,Code is 4598
-ADDR_B09B75B3,"15 Main St, Standalone House Zone",standalone house,0.112,Beware of dog
-ADDR_15C2066F,"16 Main St, Apartment Zone",apartment,0.279,Call Suresh at security
-ADDR_BDF84ED7,"17 Main St, Gated Community Zone",gated community,0.424,"Security needs flat number, ask for Priya"
-ADDR_10204270,"18 Main St, Apartment Zone",apartment,0.485,Code is 9830
-ADDR_18CEA0F2,"19 Main St, Industrial Zone",industrial,0.331,Enter via side gate
-ADDR_178366F3,"20 Main St, Gated Community Zone",gated community,0.658,Gate code: 1771
-ADDR_61258061,"21 Main St, Apartment Zone",apartment,0.431,Code is 2040
-ADDR_6FFFE4B6,"22 Main St, Apartment Zone",apartment,0.478,Leave with building manager
-ADDR_AF17E8FE,"23 Main St, Standalone House Zone",standalone house,0.11,Call upon arrival
-ADDR_FB64773A,"24 Main St, Industrial Zone",industrial,0.438,Enter via side gate
-ADDR_371C4CFE,"25 Main St, Gated Community Zone",gated community,0.362,Entry from North Gate only
-ADDR_6BF76098,"26 Main St, Gated Community Zone",gated community,0.671,Gate code: 5889
-ADDR_03A31AA2,"27 Main St, Apartment Zone",apartment,0.36,Code is 1009
-ADDR_BD12651B,"28 Main St, Gated Community Zone",gated community,0.476,Gate code: 6947
-ADDR_59CE9E4B,"29 Main St, Apartment Zone",apartment,0.357,Call Anita at security
-ADDR_7A84334A,"30 Main St, Standalone House Zone",standalone house,0.229,Call upon arrival
-ADDR_8F1905B6,"31 Main St, Gated Community Zone",gated community,0.657,Entry from North Gate only
-ADDR_ABDA6772,"32 Main St, Standalone House Zone",standalone house,0.08,Call upon arrival
-ADDR_B094F368,"33 Main St, Apartment Zone",apartment,0.304,Code is 8397
-ADDR_A74DFEBD,"34 Main St, Apartment Zone",apartment,0.265,Call Ramesh at security
-ADDR_BB09C1D0,"35 Main St, Gated Community Zone",gated community,0.609,Gate code: 1964
-ADDR_E98743AA,"36 Main St, Apartment Zone",apartment,0.42,Call Ramesh at security
-ADDR_DDB2F13E,"37 Main St, Gated Community Zone",gated community,0.579,Entry from North Gate only
-ADDR_1979B32F,"38 Main St, Apartment Zone",apartment,0.463,Leave with building manager
-ADDR_D80A3A9E,"39 Main St, Apartment Zone",apartment,0.299,Leave with building manager
-ADDR_F9CCE202,"40 Main St, Gated Community Zone",gated community,0.521,Entry from North Gate only
-ADDR_DECD0F3F,"41 Main St, Gated Community Zone",gated community,0.494,Gate code: 4139
-ADDR_1EEFDA4E,"42 Main St, Gated Community Zone",gated community,0.768,Gate code: 7912
-ADDR_0B5EC0F7,"43 Main St, Apartment Zone",apartment,0.35,Leave with building manager
-ADDR_1E58EF1C,"44 Main St, Gated Community Zone",gated community,0.827,Entry from North Gate only
-ADDR_39302E7F,"45 Main St, Standalone House Zone",standalone house,0.135,Leave at back porch
-ADDR_214DA568,"46 Main St, Standalone House Zone",standalone house,0.051,Beware of dog
-ADDR_EAC71EDF,"47 Main St, Apartment Zone",apartment,0.174,Leave with building manager
-ADDR_C8AAB8D4,"48 Main St, Gated Community Zone",gated community,0.745,Entry from North Gate only
-ADDR_4B44C83E,"49 Main St, Apartment Zone",apartment,0.357,Code is 9883
-ADDR_B0F3A2A2,"50 Main St, Industrial Zone",industrial,0.484,Deliver to loading dock B
-ADDR_3A0CD70C,"51 Main St, Gated Community Zone",gated community,0.635,Entry from North Gate only
-ADDR_1FA1B731,"52 Main St, Apartment Zone",apartment,0.303,Call Anita at security
-ADDR_A47FE032,"53 Main St, Apartment Zone",apartment,0.408,Code is 1651
-ADDR_9510DA30,"54 Main St, Gated Community Zone",gated community,0.552,Entry from North Gate only
-ADDR_CA4F8215,"55 Main St, Standalone House Zone",standalone house,0.145,Beware of dog
-ADDR_8EE35A0A,"56 Main St, Apartment Zone",apartment,0.502,Code is 5915
-ADDR_EAD54B45,"57 Main St, Apartment Zone",apartment,0.35,Leave with building manager
-ADDR_CB044A14,"58 Main St, Gated Community Zone",gated community,0.561,Entry from North Gate only
-ADDR_C01D8B0B,"59 Main St, Standalone House Zone",standalone house,0.251,Leave at back porch
-ADDR_E2A08A2E,"60 Main St, Gated Community Zone",gated community,0.46,Entry from North Gate only
-ADDR_173E1F17,"61 Main St, Gated Community Zone",gated community,0.382,Gate code: 3200
-ADDR_BEBCCBED,"62 Main St, Apartment Zone",apartment,0.272,Call Priya at security
-ADDR_A67FF62C,"63 Main St, Apartment Zone",apartment,0.372,Code is 5325
-ADDR_93398E92,"64 Main St, Apartment Zone",apartment,0.439,Call Anita at security
-ADDR_C65BD1F9,"65 Main St, Standalone House Zone",standalone house,0.187,Beware of dog
-ADDR_F7C1F036,"66 Main St, Industrial Zone",industrial,0.475,Ask for warehouse manager
-ADDR_8FA371F8,"67 Main St, Apartment Zone",apartment,0.494,Call Ramesh at security
-ADDR_469EF816,"68 Main St, Standalone House Zone",standalone house,0.05,Call upon arrival
-ADDR_5BE8DCE6,"69 Main St, Apartment Zone",apartment,0.273,Call Suresh at security
-ADDR_DE591318,"70 Main St, Gated Community Zone",gated community,0.8,Entry from North Gate only
-ADDR_DB15392A,"71 Main St, Industrial Zone",industrial,0.526,Ask for warehouse manager
-ADDR_BFD57B00,"72 Main St, Standalone House Zone",standalone house,0.05,Beware of dog
-ADDR_6733942B,"73 Main St, Apartment Zone",apartment,0.505,Leave with building manager
-ADDR_16919F02,"74 Main St, Apartment Zone",apartment,0.27,Code is 2771
-ADDR_C0DA16BE,"75 Main St, Standalone House Zone",standalone house,0.145,Leave at back porch
-ADDR_332E52B3,"76 Main St, Standalone House Zone",standalone house,0.05,Beware of dog
-ADDR_F6940BB7,"77 Main St, Gated Community Zone",gated community,0.535,Gate code: 5573
-ADDR_C64DB979,"78 Main St, Gated Community Zone",gated community,0.648,"Security needs flat number, ask for Priya"
-ADDR_BE77219B,"79 Main St, Standalone House Zone",standalone house,0.299,Beware of dog
-ADDR_F7ACA777,"80 Main St, Apartment Zone",apartment,0.526,Leave with building manager
-ADDR_A1DE5BDC,"81 Main St, Gated Community Zone",gated community,0.649,Entry from North Gate only
-ADDR_F76A6D6D,"82 Main St, Apartment Zone",apartment,0.345,Leave with building manager
-ADDR_716FD968,"83 Main St, Apartment Zone",apartment,0.484,Leave with building manager
-ADDR_7B7534DE,"84 Main St, Industrial Zone",industrial,0.513,Enter via side gate
-ADDR_AB01BD6E,"85 Main St, Gated Community Zone",gated community,0.529,Entry from North Gate only
-ADDR_CF7172B5,"86 Main St, Gated Community Zone",gated community,0.737,"Security needs flat number, ask for Priya"
-ADDR_8B2563BA,"87 Main St, Gated Community Zone",gated community,0.643,Gate code: 8043
-ADDR_F68A53B7,"88 Main St, Gated Community Zone",gated community,0.526,"Security needs flat number, ask for Anita"
-ADDR_051B3227,"89 Main St, Industrial Zone",industrial,0.608,Ask for warehouse manager
-ADDR_943CCABB,"90 Main St, Gated Community Zone",gated community,0.559,Entry from North Gate only
-ADDR_22670424,"91 Main St, Standalone House Zone",standalone house,0.101,Beware of dog
-ADDR_4DCCED8A,"92 Main St, Apartment Zone",apartment,0.201,Call Ramesh at security
-ADDR_F685A282,"93 Main St, Gated Community Zone",gated community,0.699,Entry from North Gate only
-ADDR_8D36E2EA,"94 Main St, Apartment Zone",apartment,0.264,Call Ramesh at security
-ADDR_4CE96A54,"95 Main St, Industrial Zone",industrial,0.485,Ask for warehouse manager
-ADDR_7AED35FE,"96 Main St, Apartment Zone",apartment,0.527,Call Anita at security
-ADDR_DDE351E6,"97 Main St, Apartment Zone",apartment,0.23,Code is 6198
-ADDR_8F2BCED4,"98 Main St, Gated Community Zone",gated community,0.627,Entry from North Gate only
-ADDR_E5904593,"99 Main St, Standalone House Zone",standalone house,0.05,Call upon arrival
-ADDR_8A36F26B,"100 Main St, Apartment Zone",apartment,0.287,Call Anita at security
-ADDR_2A8826A5,"101 Main St, Gated Community Zone",gated community,0.594,"Security needs flat number, ask for Priya"
-ADDR_DDEB8156,"102 Main St, Apartment Zone",apartment,0.39,Code is 2320
-ADDR_87A157D2,"103 Main St, Apartment Zone",apartment,0.307,Call Anita at security
-ADDR_C87A09DA,"104 Main St, Gated Community Zone",gated community,0.639,Entry from North Gate only
-ADDR_A50BDAE8,"105 Main St, Apartment Zone",apartment,0.399,Code is 1320
-ADDR_D3FBA62E,"106 Main St, Gated Community Zone",gated community,0.514,"Security needs flat number, ask for Anita"
-ADDR_46164A95,"107 Main St, Standalone House Zone",standalone house,0.2,Call upon arrival
-ADDR_3C1DA9CE,"108 Main St, Gated Community Zone",gated community,0.57,"Security needs flat number, ask for Anita"
-ADDR_6119DC9A,"109 Main St, Apartment Zone",apartment,0.272,Leave with building manager
-ADDR_2E311080,"110 Main St, Standalone House Zone",standalone house,0.229,Call upon arrival
-ADDR_515EFCFE,"111 Main St, Standalone House Zone",standalone house,0.05,Beware of dog
-ADDR_2BDF30DB,"112 Main St, Standalone House Zone",standalone house,0.05,Beware of dog
-ADDR_529C0368,"113 Main St, Apartment Zone",apartment,0.371,Leave with building manager
-ADDR_1E6718FE,"114 Main St, Apartment Zone",apartment,0.436,Call Ramesh at security
-ADDR_D669B64C,"115 Main St, Industrial Zone",industrial,0.683,Deliver to loading dock B
-ADDR_E2AC8E69,"116 Main St, Industrial Zone",industrial,0.529,Deliver to loading dock B
-ADDR_01D00867,"117 Main St, Gated Community Zone",gated community,0.608,Gate code: 4571
-ADDR_3EF32554,"118 Main St, Gated Community Zone",gated community,0.713,"Security needs flat number, ask for Ramesh"
-ADDR_197D66C8,"119 Main St, Industrial Zone",industrial,0.495,Ask for warehouse manager
-ADDR_4019FD5E,"120 Main St, Gated Community Zone",gated community,0.674,"Security needs flat number, ask for Suresh"
-ADDR_4DAB4BAB,"121 Main St, Apartment Zone",apartment,0.299,Call Ramesh at security
-ADDR_D3EAA83E,"122 Main St, Industrial Zone",industrial,0.319,Ask for warehouse manager
-ADDR_D539AF46,"123 Main St, Gated Community Zone",gated community,0.58,Entry from North Gate only
-ADDR_95B7518C,"124 Main St, Standalone House Zone",standalone house,0.068,Leave at back porch
-ADDR_F8690423,"125 Main St, Standalone House Zone",standalone house,0.05,Call upon arrival
-ADDR_3EA7762F,"126 Main St, Apartment Zone",apartment,0.209,Code is 5425
-ADDR_70919BD3,"127 Main St, Gated Community Zone",gated community,0.661,"Security needs flat number, ask for Ramesh"
-ADDR_C095B563,"128 Main St, Apartment Zone",apartment,0.231,Leave with building manager
-ADDR_6C46BBE0,"129 Main St, Gated Community Zone",gated community,0.555,"Security needs flat number, ask for Suresh"
-ADDR_A7ECCEE3,"130 Main St, Gated Community Zone",gated community,0.521,"Security needs flat number, ask for Priya"
-ADDR_28B1FC8D,"131 Main St, Apartment Zone",apartment,0.18,Code is 1166
-ADDR_7A5D8434,"132 Main St, Apartment Zone",apartment,0.233,Code is 7658
-ADDR_1865F39D,"133 Main St, Gated Community Zone",gated community,0.607,Entry from North Gate only
-ADDR_7630D341,"134 Main St, Industrial Zone",industrial,0.563,Deliver to loading dock B
-ADDR_60FF2753,"135 Main St, Gated Community Zone",gated community,0.606,"Security needs flat number, ask for Priya"
-ADDR_78A8CF6F,"136 Main St, Gated Community Zone",gated community,0.748,Entry from North Gate only
-ADDR_ACC1CFB7,"137 Main St, Industrial Zone",industrial,0.44,Deliver to loading dock B
-ADDR_DEA6A3FA,"138 Main St, Apartment Zone",apartment,0.425,Code is 4033
-ADDR_42D7195C,"139 Main St, Apartment Zone",apartment,0.19,Code is 5636
-ADDR_18108222,"140 Main St, Standalone House Zone",standalone house,0.116,Leave at back porch
-ADDR_F57F5291,"141 Main St, Apartment Zone",apartment,0.473,Leave with building manager
-ADDR_AB8F67EE,"142 Main St, Gated Community Zone",gated community,0.611,Entry from North Gate only
-ADDR_3E9BA17D,"143 Main St, Apartment Zone",apartment,0.432,Leave with building manager
-ADDR_D96289FA,"144 Main St, Apartment Zone",apartment,0.356,Call Anita at security
-ADDR_54EDF89B,"145 Main St, Apartment Zone",apartment,0.457,Code is 1878
-ADDR_C3D5A39D,"146 Main St, Apartment Zone",apartment,0.396,Code is 5978
-ADDR_6517E6CA,"147 Main St, Standalone House Zone",standalone house,0.225,Call upon arrival
-ADDR_4229D735,"148 Main St, Gated Community Zone",gated community,0.715,"Security needs flat number, ask for Anita"
-ADDR_49159A28,"149 Main St, Apartment Zone",apartment,0.251,Code is 2625
-ADDR_5875E354,"150 Main St, Gated Community Zone",gated community,0.505,"Security needs flat number, ask for Suresh"
-ADDR_2C07AF1A,"151 Main St, Apartment Zone",apartment,0.295,Leave with building manager
-ADDR_D198BFC4,"152 Main St, Apartment Zone",apartment,0.331,Call Priya at security
-ADDR_536D5F87,"153 Main St, Industrial Zone",industrial,0.304,Enter via side gate
-ADDR_BBFCF7A7,"154 Main St, Apartment Zone",apartment,0.393,Call Priya at security
-ADDR_98B4A510,"155 Main St, Standalone House Zone",standalone house,0.154,Leave at back porch
-ADDR_F3A2FBF9,"156 Main St, Apartment Zone",apartment,0.376,Code is 5982
-ADDR_647359FC,"157 Main St, Standalone House Zone",standalone house,0.05,Beware of dog
-ADDR_759ACFE6,"158 Main St, Industrial Zone",industrial,0.45,Ask for warehouse manager
-ADDR_94219C75,"159 Main St, Apartment Zone",apartment,0.535,Code is 1339
-ADDR_CC36EB4B,"160 Main St, Gated Community Zone",gated community,0.555,Gate code: 8708
-ADDR_39BC7E94,"161 Main St, Standalone House Zone",standalone house,0.155,Call upon arrival
-ADDR_445C7B5E,"162 Main St, Gated Community Zone",gated community,0.721,"Security needs flat number, ask for Priya"
-ADDR_83AEFA64,"163 Main St, Gated Community Zone",gated community,0.656,Entry from North Gate only
-ADDR_8DC860A9,"164 Main St, Gated Community Zone",gated community,0.53,"Security needs flat number, ask for Anita"
-ADDR_975257B1,"165 Main St, Apartment Zone",apartment,0.349,Leave with building manager
-ADDR_899B591A,"166 Main St, Gated Community Zone",gated community,0.65,Entry from North Gate only
-ADDR_E61FFC71,"167 Main St, Apartment Zone",apartment,0.211,Leave with building manager
-ADDR_1DE1536E,"168 Main St, Apartment Zone",apartment,0.334,Code is 3146
-ADDR_A1C0B33A,"169 Main St, Gated Community Zone",gated community,0.584,Entry from North Gate only
-ADDR_343F6A78,"170 Main St, Apartment Zone",apartment,0.302,Call Ramesh at security
-ADDR_80C70EAF,"171 Main St, Apartment Zone",apartment,0.377,Call Anita at security
-ADDR_495AE13B,"172 Main St, Standalone House Zone",standalone house,0.059,Leave at back porch
-ADDR_E89FB134,"173 Main St, Gated Community Zone",gated community,0.488,"Security needs flat number, ask for Anita"
-ADDR_A64DFECF,"174 Main St, Apartment Zone",apartment,0.362,Code is 9327
-ADDR_6FE886D9,"175 Main St, Standalone House Zone",standalone house,0.071,Leave at back porch
-ADDR_BF043B18,"176 Main St, Standalone House Zone",standalone house,0.274,Leave at back porch
-ADDR_34616755,"177 Main St, Standalone House Zone",standalone house,0.05,Leave at back porch
-ADDR_7AA08735,"178 Main St, Gated Community Zone",gated community,0.638,"Security needs flat number, ask for Suresh"
-ADDR_82C1322A,"179 Main St, Gated Community Zone",gated community,0.618,Gate code: 6213
-ADDR_D7DF0052,"180 Main St, Industrial Zone",industrial,0.622,Enter via side gate
-ADDR_B558E0D7,"181 Main St, Gated Community Zone",gated community,0.715,Entry from North Gate only
-ADDR_5B8DA62D,"182 Main St, Standalone House Zone",standalone house,0.127,Leave at back porch
-ADDR_CEC3B7C2,"183 Main St, Apartment Zone",apartment,0.475,Call Anita at security
-ADDR_2885D7BE,"184 Main St, Industrial Zone",industrial,0.609,Enter via side gate
-ADDR_48BB145D,"185 Main St, Gated Community Zone",gated community,0.717,Entry from North Gate only
-ADDR_AC5645C8,"186 Main St, Gated Community Zone",gated community,0.443,"Security needs flat number, ask for Ramesh"
-ADDR_56529736,"187 Main St, Gated Community Zone",gated community,0.615,"Security needs flat number, ask for Ramesh"
-ADDR_B375D036,"188 Main St, Gated Community Zone",gated community,0.751,Gate code: 2646
-ADDR_F932B85E,"189 Main St, Apartment Zone",apartment,0.343,Leave with building manager
-ADDR_81B5873F,"190 Main St, Apartment Zone",apartment,0.373,Leave with building manager
-ADDR_C6DC2615,"191 Main St, Gated Community Zone",gated community,0.438,Gate code: 3868
-ADDR_B5282198,"192 Main St, Gated Community Zone",gated community,0.529,"Security needs flat number, ask for Anita"
-ADDR_0AEC10BF,"193 Main St, Standalone House Zone",standalone house,0.169,Leave at back porch
-ADDR_0240CABB,"194 Main St, Gated Community Zone",gated community,0.687,"Security needs flat number, ask for Suresh"
-ADDR_55E30744,"195 Main St, Apartment Zone",apartment,0.629,Leave with building manager
-ADDR_6D9E8638,"196 Main St, Gated Community Zone",gated community,0.5,"Security needs flat number, ask for Anita"
-ADDR_FA039EC2,"197 Main St, Standalone House Zone",standalone house,0.177,Leave at back porch
-ADDR_931CA5FF,"198 Main St, Apartment Zone",apartment,0.411,Code is 7484
-ADDR_B7372220,"199 Main St, Apartment Zone",apartment,0.465,Call Priya at security
-ADDR_B1C340CA,"200 Main St, Industrial Zone",industrial,0.32,Deliver to loading dock B
+ADDR_C3C98B21,"Villa 69, Grand Orchards, Nehru Street, Anna Nagar, Chennai - 600040",gated community,0.655,Gate barrier code: 7912; state resident name at security kiosk for MyGate app pre-approval
+ADDR_4E764683,"Flat 304D, Rohan Viti Apartments, 2nd Cross Street, Saibaba Colony, Coimbatore - 641011",apartment,0.387,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_586EF2DD,"Villa 83, Silver County, Anna Salai, Mylapore, Chennai - 600004",gated community,0.65,Enter through North Gate only; visitor parking strictly assigned at Bay #2674
+ADDR_29E16DE1,"Villa 129, Green Meadows, Nehru Street, Saibaba Colony, Coimbatore - 641011",gated community,0.64,Gate barrier code: 2291; state resident name at security kiosk for MyGate app pre-approval
+ADDR_2353F346,"Flat 692B, Purva Windermere Apartments, Brigade Road, Banjara Hills, Hyderabad - 500034",apartment,0.537,Security guard Selvam at Gate 3 verifies delivery OTP; take Lift B to Floor 4
+ADDR_A052449B,"Villa 105, Oakwood Hills, Nehru Street, Electronic City, Bangalore - 560100",gated community,0.605,Tell Security Officer Murugesan visiting Villa #105; delivery vehicles must observe 20 km/h limit
+ADDR_6D7F50A5,"Villa 55, Nandi Hills Vista, Gandhi Road, Cantonment, Trichy - 620001",gated community,0.444,Enter through North Gate only; visitor parking strictly assigned at Bay #8573
+ADDR_A86325E0,"Villa 26, Silver County, Station Road, Peelamedu, Coimbatore - 641004",gated community,0.786,Gate barrier code: 7572; state resident name at security kiosk for MyGate app pre-approval
+ADDR_EEA6985D,"Flat 423B, Sterling Terraces Apartments, Mount Road, Tambaram, Chennai - 600045",apartment,0.374,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_198E9BC7,"Flat 698D, Appaswamy Platina Apartments, Mount Road, Koramangala, Bangalore - 560034",apartment,0.44,"Intercom code is #9085; if unanswered, leave parcel with Building Manager Mr. Dharmaraj"
+ADDR_FE017CD8,"No. 43, Shiva Kripa, Kamarajar Salai, T. Nagar, Chennai - 600017",standalone house,0.08,Leave parcel inside covered wooden milk-box beside grill if resident is away
+ADDR_DCEE2CFE,"Flat 797A, Sri Lakshmi Apartments, Avinashi Road, Koramangala, Bangalore - 560034",apartment,0.451,"Call resident at +91-98402827 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_CC6372E8,"Flat 840C, Sri Lakshmi Apartments, Vaidyanathan Street, Mylapore, Chennai - 600004",apartment,0.432,"Intercom code is #5889; if unanswered, leave parcel with Building Manager Mr. Chandran"
+ADDR_DA747428,"No. 142, Sri Raghavendra Nilayam, Temple Street, Whitefield, Bangalore - 560066",standalone house,0.08,Elderly resident on 1st floor; call +91-94446310 and allow 3 minutes for gate opening
+ADDR_282D8141,"Flat 346A, Casagrand Zenith Apartments, Subramaniam Road, Velachery, Chennai - 600042",apartment,0.469,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_EBE77ED7,"Flat 587B, Salarpuria Sattva Apartments, 100 Feet Road, Ambattur, Chennai - 600058",apartment,0.178,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_A0A12B58,"Shed 22, Electronic City Phase I, Lake View Road, Madhapur, Hyderabad - 500081",industrial,0.521,Deliveries accepted strictly between 10am-5pm; warehouse manager Ponnusamy must sign invoice
+ADDR_F53F17A0,"Flat 703B, Brigade Gateway Apartments, Avinashi Road, Saravanampatti, Coimbatore - 641035",apartment,0.419,Security guard Ramanathan at Gate 3 verifies delivery OTP; take Lift B to Floor 1
+ADDR_B0DBAC3A,"No. 22, Sai Kutir, Bazaar Street, T. Nagar, Chennai - 600017",standalone house,0.129,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_78A2E2AC,"Shed 18, Guindy Estate, Mount Road, Saravanampatti, Coimbatore - 641035",industrial,0.522,Side ramp access for two-wheelers; ring industrial buzzer at Godown Shutter #2588
+ADDR_3FE47249,"Villa 131, Emerald Greens, Anna Salai, Whitefield, Bangalore - 560066",gated community,0.6,Gate barrier code: 7596; state resident name at security kiosk for MyGate app pre-approval
+ADDR_4B7651D6,"No. 141, Bhuvaneshwari Nilayam, Lake View Road, Tambaram, Chennai - 600045",standalone house,0.08,"Behind Saravana Stores, opposite Apollo Pharmacy; narrow dead-end lane"
+ADDR_34BD6DF7,"No. 23, Bhuvaneshwari Nilayam, Station Road, Bellandur, Bangalore - 560103",standalone house,0.409,Elderly resident on 1st floor; call +91-94442604 and allow 3 minutes for gate opening
+ADDR_7FD039DE,"Villa 116, Adarsh Palm Retreat, Station Road, Adyar, Chennai - 600020",gated community,0.715,Call resident (+91-98417570) at main gate; security will not allow entry without tenant clearance
+ADDR_E679BD02,"Shed 27, SIDCO Industrial Estate, Bharathiar Salai, Mylapore, Chennai - 600004",industrial,0.518,Side ramp access for two-wheelers; ring industrial buzzer at Godown Shutter #8973
+ADDR_83B958C8,"Shed 23, SIDCO Industrial Estate, Avinashi Road, Saravanampatti, Coimbatore - 641035",industrial,0.535,Loading Bay 4 at rear service alley; safety helmet and fluorescent vest required on dock
+ADDR_2563194E,"No. 51, Ganesh Illam, Gandhi Road, RS Puram, Coimbatore - 641002",standalone house,0.093,Elderly resident on 1st floor; call +91-94442113 and allow 3 minutes for gate opening
+ADDR_A44BEDDD,"No. 152, Sri Raghavendra Nilayam, Station Road, Saravanampatti, Coimbatore - 641035",standalone house,0.08,Elderly resident on 1st floor; call +91-94442343 and allow 3 minutes for gate opening
+ADDR_07E70A63,"Flat 424C, Rohan Viti Apartments, Mount Road, Saravanampatti, Coimbatore - 641035",apartment,0.458,"Call resident at +91-98407484 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_F86B1E34,"Flat 570A, Sri Lakshmi Apartments, Gandhi Road, Madhapur, Hyderabad - 500081",apartment,0.464,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_C2B25DC5,"No. 66, Lakshmi Vilas, Gandhi Road, Whitefield, Bangalore - 560066",standalone house,0.08,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_47AAF757,"Flat 784C, Sri Lakshmi Apartments, Ring Road, Kondapur, Hyderabad - 500084",apartment,0.418,"Intercom code is #2753; if unanswered, leave parcel with Building Manager Mr. Selvam"
+ADDR_3C9B26CB,"Villa 65, Prestige Golfshire, Nehru Street, Ambattur, Chennai - 600058",gated community,0.447,Enter through North Gate only; visitor parking strictly assigned at Bay #9280
+ADDR_A595D783,"Villa 23, Prestige Golfshire, Anna Salai, Adyar, Chennai - 600020",gated community,0.633,Tell Security Officer Ramanathan visiting Villa #23; delivery vehicles must observe 20 km/h limit
+ADDR_030CC5F4,"No. 113, Sri Raghavendra Nilayam, Avinashi Road, Bellandur, Bangalore - 560103",standalone house,0.235,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_79D15940,"No. 153, Shiva Kripa, Subramaniam Road, T. Nagar, Chennai - 600017",standalone house,0.08,Leave parcel inside covered wooden milk-box beside grill if resident is away
+ADDR_231D0FED,"No. 95, Sai Kutir, 1st Main Road, Whitefield, Bangalore - 560066",standalone house,0.08,"Behind Saravana Stores, opposite Apollo Pharmacy; narrow dead-end lane"
+ADDR_885E8CFC,"Villa 53, Grand Orchards, 100 Feet Road, Saibaba Colony, Coimbatore - 641011",gated community,0.702,Call resident (+91-98413938) at main gate; security will not allow entry without tenant clearance
+ADDR_176A9DFF,"Villa 80, Grand Orchards, Anna Salai, HSR Layout, Bangalore - 560102",gated community,0.656,Gate barrier code: 1634; state resident name at security kiosk for MyGate app pre-approval
+ADDR_8EA14CB0,"Villa 70, Prestige Golfshire, Subramaniam Road, Bellandur, Bangalore - 560103",gated community,0.576,Gate barrier code: 7528; state resident name at security kiosk for MyGate app pre-approval
+ADDR_4D3F21A5,"Flat 757D, Purva Windermere Apartments, Nehru Street, Adyar, Chennai - 600020",apartment,0.469,"Call resident at +91-98405279 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_B8C47B82,"Flat 454C, Appaswamy Platina Apartments, Brigade Road, Velachery, Chennai - 600042",apartment,0.565,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_97F4E336,"Villa 123, Green Meadows, Nehru Street, Tambaram, Chennai - 600045",gated community,0.443,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_1E0A4EFF,"Shed 10, Electronic City Phase I, Bazaar Street, Saibaba Colony, Coimbatore - 641011",industrial,0.562,Gate pass stamp mandatory from Security Gate 3; park in Commercial Bay #6
+ADDR_21A735FD,"Flat 231B, Rohan Viti Apartments, Church Road, Cantonment, Trichy - 620001",apartment,0.254,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_87D57FB2,"Flat 722C, Mantri Elegance Apartments, Anna Salai, Tambaram, Chennai - 600045",apartment,0.464,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_9ABE9DD0,"Flat 187C, Salarpuria Sattva Apartments, Temple Street, Kondapur, Hyderabad - 500084",apartment,0.353,Security desk at Tower 2 logs all delivery drivers; visitor pass stamp required
+ADDR_C8766090,"No. 66, Bhuvaneshwari Nilayam, 1st Main Road, Anna Nagar, Chennai - 600040",standalone house,0.08,Elderly resident on 1st floor; call +91-94442193 and allow 3 minutes for gate opening
+ADDR_6144B7A6,"Flat 836D, Brigade Gateway Apartments, Mount Road, Thillai Nagar, Trichy - 620018",apartment,0.504,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_4FB5D52C,"Villa 57, Grand Orchards, Anna Salai, Madhapur, Hyderabad - 500081",gated community,0.521,Call resident (+91-98415082) at main gate; security will not allow entry without tenant clearance
+ADDR_18317C3B,"Shed 32, SIPCOT Phase II, Vaidyanathan Street, Velachery, Chennai - 600042",industrial,0.324,Gate pass stamp mandatory from Security Gate 3; park in Commercial Bay #4
+ADDR_8FB75663,"Flat 366B, Godrej Woodsman Apartments, 7th Cross, Mylapore, Chennai - 600004",apartment,0.457,Security desk at Tower 2 logs all delivery drivers; visitor pass stamp required
+ADDR_EE2B3F34,"Flat 379C, Brigade Gateway Apartments, Church Road, Cantonment, Trichy - 620001",apartment,0.394,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_0B1EA270,"Villa 96, Emerald Greens, Anna Salai, Adyar, Chennai - 600020",gated community,0.742,Call resident (+91-98412020) at main gate; security will not allow entry without tenant clearance
+ADDR_AA652A8C,"Flat 813A, Mantri Elegance Apartments, Bharathiar Salai, Jayanagar, Bangalore - 560041",apartment,0.356,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_FAEE2CAF,"Villa 68, Whispering Palms, Anna Salai, Banjara Hills, Hyderabad - 500034",gated community,0.696,Enter through North Gate only; visitor parking strictly assigned at Bay #8140
+ADDR_D35DB710,"Flat 796D, Salarpuria Sattva Apartments, Bazaar Street, Electronic City, Bangalore - 560100",apartment,0.469,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_2819F0D2,"Villa 130, Adarsh Palm Retreat, Anna Salai, Adyar, Chennai - 600020",gated community,0.561,Gate barrier code: 7211; state resident name at security kiosk for MyGate app pre-approval
+ADDR_FD542E4F,"Flat 880D, Purva Windermere Apartments, Bazaar Street, Bellandur, Bangalore - 560103",apartment,0.479,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_68803FC0,"Shed 7, Electronic City Phase I, Station Road, Whitefield, Bangalore - 560066",industrial,0.492,Loading Bay 2 at rear service alley; safety helmet and fluorescent vest required on dock
+ADDR_96C2101D,"Villa 41, Oakwood Hills, 100 Feet Road, Guindy, Chennai - 600032",gated community,0.625,Enter through North Gate only; visitor parking strictly assigned at Bay #5198
+ADDR_872EC200,"Villa 91, Adarsh Palm Retreat, Kamarajar Salai, Gachibowli, Hyderabad - 500032",gated community,0.572,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_E1E8C871,"Flat 304A, Sterling Terraces Apartments, Bharathiar Salai, Electronic City, Bangalore - 560100",apartment,0.41,"Intercom code is #2983; if unanswered, leave parcel with Building Manager Mr. Ravichandran"
+ADDR_2498CC35,"No. 173, Lakshmi Vilas, Anna Salai, Peelamedu, Coimbatore - 641004",standalone house,0.08,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_A3AE4573,"Villa 39, Oakwood Hills, Anna Salai, Anna Nagar, Chennai - 600040",gated community,0.5,Tell Security Officer Ponnusamy visiting Villa #39; delivery vehicles must observe 20 km/h limit
+ADDR_CF921879,"Shed 37, KIADB Logistics Park, Brigade Road, Koramangala, Bangalore - 560034",industrial,0.531,Side ramp access for two-wheelers; ring industrial buzzer at Godown Shutter #5397
+ADDR_A81FFDC1,"Flat 562B, Casagrand Zenith Apartments, Gandhi Road, Guindy, Chennai - 600032",apartment,0.534,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_2DE9DB69,"No. 70, Lakshmi Vilas, Subramaniam Road, Tambaram, Chennai - 600045",standalone house,0.148,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_49A6B79A,"Flat 348D, Prestige Shantiniketan Apartments, Lake View Road, RS Puram, Coimbatore - 641002",apartment,0.366,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_12CAD1CB,"Flat 780C, Casagrand Zenith Apartments, Station Road, Electronic City, Bangalore - 560100",apartment,0.385,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_21B318C7,"Shed 47, Ambattur IE, Bazaar Street, Peelamedu, Coimbatore - 641004",industrial,0.518,Deliveries accepted strictly between 10am-5pm; warehouse manager Muthuvel must sign invoice
+ADDR_08BAF26A,"No. 53, Sai Kutir, Temple Street, Peelamedu, Coimbatore - 641004",standalone house,0.156,Leave parcel inside covered wooden milk-box beside grill if resident is away
+ADDR_03702C68,"Villa 84, Nandi Hills Vista, Ring Road, Madhapur, Hyderabad - 500081",gated community,0.576,Enter through North Gate only; visitor parking strictly assigned at Bay #4727
+ADDR_5336C862,"Villa 25, Green Meadows, Nehru Street, Ambattur, Chennai - 600058",gated community,0.672,Tell Security Officer Chandran visiting Villa #25; delivery vehicles must observe 20 km/h limit
+ADDR_0DB4AB98,"No. 76, Bhuvaneshwari Nilayam, Mount Road, Anna Nagar, Chennai - 600040",standalone house,0.08,Leave parcel inside covered wooden milk-box beside grill if resident is away
+ADDR_C590966D,"Flat 511D, Prestige Shantiniketan Apartments, Kamarajar Salai, Gandhipuram, Coimbatore - 641012",apartment,0.555,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_18F2B57F,"No. 25, Sai Kutir, Church Road, Saravanampatti, Coimbatore - 641035",standalone house,0.08,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_DFA96E81,"Flat 554C, Godrej Woodsman Apartments, Bharathiar Salai, RS Puram, Coimbatore - 641002",apartment,0.292,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_12691E46,"Shed 45, Ambattur IE, Lake View Road, Tambaram, Chennai - 600045",industrial,0.525,Main Security Desk inspects vehicle chassis; ask for Dispatch Supervisor Mr. Selvam
+ADDR_1F0F8D96,"Villa 71, Green Meadows, Church Road, Gandhipuram, Coimbatore - 641012",gated community,0.688,Tell Security Officer Balakrishnan visiting Villa #71; delivery vehicles must observe 20 km/h limit
+ADDR_99C9AB1C,"Villa 120, Grand Orchards, Mount Road, Koramangala, Bangalore - 560034",gated community,0.746,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_CCB61689,"No. 156, Annai Illam, Church Road, Mylapore, Chennai - 600004",standalone house,0.08,Leave parcel inside covered wooden milk-box beside grill if resident is away
+ADDR_8A75B857,"Flat 613D, Casagrand Zenith Apartments, Bharathiar Salai, Indiranagar, Bangalore - 560038",apartment,0.369,Security guard Muthuvel at Gate 3 verifies delivery OTP; take Lift B to Floor 1
+ADDR_26931D8C,"No. 154, Sri Raghavendra Nilayam, Mount Road, Guindy, Chennai - 600032",standalone house,0.08,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_D32005D9,"Villa 125, Whispering Palms, 7th Cross, Mylapore, Chennai - 600004",gated community,0.708,Enter through North Gate only; visitor parking strictly assigned at Bay #9056
+ADDR_96CD534E,"Flat 438D, Sobha Renaissance Apartments, Kamarajar Salai, HSR Layout, Bangalore - 560102",apartment,0.363,"Call resident at +91-98401601 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_62B23B71,"Flat 219D, Purva Windermere Apartments, Nehru Street, HSR Layout, Bangalore - 560102",apartment,0.336,Security guard Chandran at Gate 3 verifies delivery OTP; take Lift B to Floor 9
+ADDR_024D8732,"Flat 553A, Salarpuria Sattva Apartments, 7th Cross, Madhapur, Hyderabad - 500081",apartment,0.407,"Call resident at +91-98405719 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_8893587D,"Flat 130B, Prestige Shantiniketan Apartments, 7th Cross, Cantonment, Trichy - 620001",apartment,0.588,"Call resident at +91-98407684 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_198D0A5F,"Shed 12, Electronic City Phase I, Kamarajar Salai, Bellandur, Bangalore - 560103",industrial,0.618,Deliveries accepted strictly between 10am-5pm; warehouse manager Muthuvel must sign invoice
+ADDR_5EFF0716,"Shed 12, Peenya Industrial Area, Vaidyanathan Street, Guindy, Chennai - 600032",industrial,0.502,Main Security Desk inspects vehicle chassis; ask for Dispatch Supervisor Mr. Ponnusamy
+ADDR_2582F4E5,"Flat 103C, Casagrand Zenith Apartments, Ring Road, Kondapur, Hyderabad - 500084",apartment,0.225,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_0D591A20,"Flat 666D, Purva Windermere Apartments, Subramaniam Road, Gandhipuram, Coimbatore - 641012",apartment,0.394,"Call resident at +91-98407274 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_0C87ADFF,"No. 101, Krishna Kripa, 7th Cross, Gachibowli, Hyderabad - 500032",standalone house,0.258,"Behind Saravana Stores, opposite Apollo Pharmacy; narrow dead-end lane"
+ADDR_372510ED,"Shed 24, Peenya Industrial Area, Ring Road, Ambattur, Chennai - 600058",industrial,0.524,Side ramp access for two-wheelers; ring industrial buzzer at Godown Shutter #8486
+ADDR_298F582E,"Villa 79, Oakwood Hills, Gandhi Road, Ambattur, Chennai - 600058",gated community,0.624,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_DCE15EDC,"Villa 93, Emerald Greens, Avinashi Road, Thuvakudi, Trichy - 620015",gated community,0.632,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_5933BD2A,"Flat 201A, Appaswamy Platina Apartments, Gandhi Road, Guindy, Chennai - 600032",apartment,0.501,"Intercom code is #1474; if unanswered, leave parcel with Building Manager Mr. Muthuvel"
+ADDR_7D95B8BC,"No. 79, Lakshmi Vilas, 1st Main Road, Kondapur, Hyderabad - 500084",standalone house,0.18,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_54267196,"Flat 280A, Sobha Renaissance Apartments, Temple Street, Kondapur, Hyderabad - 500084",apartment,0.458,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_50445A83,"Shed 43, Guindy Estate, Station Road, Ambattur, Chennai - 600058",industrial,0.552,Side ramp access for two-wheelers; ring industrial buzzer at Godown Shutter #1153
+ADDR_6C9250B1,"Flat 553C, Prestige Shantiniketan Apartments, Temple Street, Peelamedu, Coimbatore - 641004",apartment,0.327,"Call resident at +91-98405097 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_C36D7964,"Flat 595A, Appaswamy Platina Apartments, Lake View Road, Indiranagar, Bangalore - 560038",apartment,0.447,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_10024A38,"Shed 3, Ambattur IE, Bharathiar Salai, Thuvakudi, Trichy - 620015",industrial,0.477,Loading Bay 4 at rear service alley; safety helmet and fluorescent vest required on dock
+ADDR_A11D9A02,"Villa 76, Grand Orchards, Station Road, Whitefield, Bangalore - 560066",gated community,0.625,Gate barrier code: 6061; state resident name at security kiosk for MyGate app pre-approval
+ADDR_B678ADEF,"Flat 435D, Casagrand Zenith Apartments, Gandhi Road, Ambattur, Chennai - 600058",apartment,0.36,"Intercom code is #6994; if unanswered, leave parcel with Building Manager Mr. Murugesan"
+ADDR_2E7762C0,"Flat 594C, Casagrand Zenith Apartments, Temple Street, Koramangala, Bangalore - 560034",apartment,0.381,Security guard Dharmaraj at Gate 2 verifies delivery OTP; take Lift B to Floor 2
+ADDR_D1367EDF,"Villa 105, Whispering Palms, Bharathiar Salai, Thuvakudi, Trichy - 620015",gated community,0.563,Call resident (+91-98415332) at main gate; security will not allow entry without tenant clearance
+ADDR_A5C8F96D,"Flat 867C, Salarpuria Sattva Apartments, Subramaniam Road, Bellandur, Bangalore - 560103",apartment,0.339,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_1D315F21,"Villa 68, Nandi Hills Vista, Bazaar Street, Peelamedu, Coimbatore - 641004",gated community,0.54,Call resident (+91-98417689) at main gate; security will not allow entry without tenant clearance
+ADDR_85038A8C,"No. 81, Bhuvaneshwari Nilayam, 1st Main Road, T. Nagar, Chennai - 600017",standalone house,0.129,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_31AD0D42,"Flat 702B, Appaswamy Platina Apartments, Avinashi Road, Whitefield, Bangalore - 560066",apartment,0.479,Security guard Ponnusamy at Gate 2 verifies delivery OTP; take Lift B to Floor 7
+ADDR_8965D8C2,"No. 117, Bhuvaneshwari Nilayam, Lake View Road, Whitefield, Bangalore - 560066",standalone house,0.219,"Behind Saravana Stores, opposite Apollo Pharmacy; narrow dead-end lane"
+ADDR_8E8ECFF4,"Flat 508C, Sri Lakshmi Apartments, Subramaniam Road, Thillai Nagar, Trichy - 620018",apartment,0.451,Security guard Subramani at Gate 2 verifies delivery OTP; take Lift B to Floor 2
+ADDR_1FB16FDB,"Villa 97, Green Meadows, 2nd Cross Street, Saibaba Colony, Coimbatore - 641011",gated community,0.669,Enter through North Gate only; visitor parking strictly assigned at Bay #2124
+ADDR_019C054D,"Flat 893B, Purva Windermere Apartments, Station Road, Banjara Hills, Hyderabad - 500034",apartment,0.291,Security guard Ravichandran at Gate 2 verifies delivery OTP; take Lift B to Floor 3
+ADDR_98B72B76,"Flat 777A, Prestige Shantiniketan Apartments, Temple Street, Kondapur, Hyderabad - 500084",apartment,0.443,Security guard Murugesan at Gate 2 verifies delivery OTP; take Lift B to Floor 4
+ADDR_85F7EDFF,"No. 33, Ganesh Illam, Ring Road, Jayanagar, Bangalore - 560041",standalone house,0.126,Leave parcel inside covered wooden milk-box beside grill if resident is away
+ADDR_6160854C,"Villa 127, Palm Groves, Mount Road, RS Puram, Coimbatore - 641002",gated community,0.583,Enter through North Gate only; visitor parking strictly assigned at Bay #9543
+ADDR_A56B7D74,"No. 113, Ganesh Illam, Bharathiar Salai, Gandhipuram, Coimbatore - 641012",standalone house,0.229,Leave parcel inside covered wooden milk-box beside grill if resident is away
+ADDR_BD4F5CE8,"No. 159, Shiva Kripa, Bazaar Street, Adyar, Chennai - 600020",standalone house,0.102,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_E3576650,"Flat 644C, Mantri Elegance Apartments, Bharathiar Salai, HSR Layout, Bangalore - 560102",apartment,0.492,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_185EEE03,"Villa 122, Grand Orchards, Avinashi Road, Velachery, Chennai - 600042",gated community,0.658,Enter through North Gate only; visitor parking strictly assigned at Bay #6553
+ADDR_3E5CE0AA,"Villa 77, Silver County, Anna Salai, HSR Layout, Bangalore - 560102",gated community,0.549,Enter through North Gate only; visitor parking strictly assigned at Bay #2099
+ADDR_30611DB0,"No. 114, Ganesh Illam, Gandhi Road, Adyar, Chennai - 600020",standalone house,0.08,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_F00FE4B5,"Flat 463D, Appaswamy Platina Apartments, Kamarajar Salai, HSR Layout, Bangalore - 560102",apartment,0.343,"Call resident at +91-98406761 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_0EAFD000,"No. 43, Bhuvaneshwari Nilayam, Lake View Road, RS Puram, Coimbatore - 641002",standalone house,0.08,"Behind Saravana Stores, opposite Apollo Pharmacy; narrow dead-end lane"
+ADDR_A28102B5,"No. 61, Krishna Kripa, Mount Road, Koramangala, Bangalore - 560034",standalone house,0.202,Elderly resident on 1st floor; call +91-94441430 and allow 3 minutes for gate opening
+ADDR_F2CE4E11,"Villa 58, Green Meadows, Nehru Street, Thuvakudi, Trichy - 620015",gated community,0.781,Tell Security Officer Balakrishnan visiting Villa #58; delivery vehicles must observe 20 km/h limit
+ADDR_76CDA4D6,"Flat 859A, Sobha Renaissance Apartments, Gandhi Road, Electronic City, Bangalore - 560100",apartment,0.386,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_1374B5C0,"Flat 839C, Casagrand Zenith Apartments, Subramaniam Road, Mylapore, Chennai - 600004",apartment,0.441,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_F97D3077,"Villa 136, Emerald Greens, Vaidyanathan Street, Koramangala, Bangalore - 560034",gated community,0.713,Call resident (+91-98415475) at main gate; security will not allow entry without tenant clearance
+ADDR_CB1F42D8,"Flat 541A, Purva Windermere Apartments, Kamarajar Salai, RS Puram, Coimbatore - 641002",apartment,0.457,Security desk at Tower 2 logs all delivery drivers; visitor pass stamp required
+ADDR_455DA28C,"Flat 317B, Casagrand Zenith Apartments, Lake View Road, Anna Nagar, Chennai - 600040",apartment,0.403,"Call resident at +91-98401126 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_E8485622,"Flat 490B, Sobha Renaissance Apartments, Temple Street, Jayanagar, Bangalore - 560041",apartment,0.275,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_5120055B,"Flat 690D, Purva Windermere Apartments, Gandhi Road, Bellandur, Bangalore - 560103",apartment,0.459,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_4FE93909,"No. 47, Bhuvaneshwari Nilayam, Bazaar Street, Anna Nagar, Chennai - 600040",standalone house,0.085,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_D7095447,"Flat 506C, Prestige Shantiniketan Apartments, Ring Road, Electronic City, Bangalore - 560100",apartment,0.395,"Intercom code is #2251; if unanswered, leave parcel with Building Manager Mr. Dharmaraj"
+ADDR_86B11651,"Flat 299C, Rohan Viti Apartments, Ring Road, Velachery, Chennai - 600042",apartment,0.378,"Intercom code is #3399; if unanswered, leave parcel with Building Manager Mr. Dharmaraj"
+ADDR_F0649F99,"No. 49, Bhuvaneshwari Nilayam, Gandhi Road, Madhapur, Hyderabad - 500081",standalone house,0.169,Leave parcel inside covered wooden milk-box beside grill if resident is away
+ADDR_910440AE,"Villa 92, Silver County, Brigade Road, Saravanampatti, Coimbatore - 641035",gated community,0.556,Call resident (+91-98418682) at main gate; security will not allow entry without tenant clearance
+ADDR_650014BB,"Flat 176C, Rohan Viti Apartments, Subramaniam Road, T. Nagar, Chennai - 600017",apartment,0.404,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_632D2863,"Villa 110, Nandi Hills Vista, Gandhi Road, Adyar, Chennai - 600020",gated community,0.708,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_D6E9817B,"No. 132, Shiva Kripa, 7th Cross, Saibaba Colony, Coimbatore - 641011",standalone house,0.08,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_2A9D9D30,"No. 25, Shiva Kripa, Bazaar Street, Banjara Hills, Hyderabad - 500034",standalone house,0.08,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_ACA9906E,"Flat 482C, Purva Windermere Apartments, Temple Street, Saibaba Colony, Coimbatore - 641011",apartment,0.143,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_272A73A8,"No. 177, Krishna Kripa, Avinashi Road, Velachery, Chennai - 600042",standalone house,0.101,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_E43509F2,"Shed 40, SIDCO Industrial Estate, Bazaar Street, Ambattur, Chennai - 600058",industrial,0.365,Deliveries accepted strictly between 10am-5pm; warehouse manager Murugesan must sign invoice
+ADDR_C1AF0A56,"No. 83, Krishna Kripa, Gandhi Road, Cantonment, Trichy - 620001",standalone house,0.08,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_F460AD76,"Villa 120, Palm Groves, Ring Road, Thuvakudi, Trichy - 620015",gated community,0.488,Tell Security Officer Chandran visiting Villa #120; delivery vehicles must observe 20 km/h limit
+ADDR_15A44DD0,"Flat 297B, Godrej Woodsman Apartments, Bazaar Street, Tambaram, Chennai - 600045",apartment,0.28,"Intercom code is #2657; if unanswered, leave parcel with Building Manager Mr. Murugesan"
+ADDR_5460817B,"Villa 45, Silver County, 1st Main Road, RS Puram, Coimbatore - 641002",gated community,0.615,Call resident (+91-98413658) at main gate; security will not allow entry without tenant clearance
+ADDR_E6740215,"No. 46, Bhuvaneshwari Nilayam, Brigade Road, Cantonment, Trichy - 620001",standalone house,0.08,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_D22E7C48,"Shed 31, KIADB Logistics Park, Church Road, Saibaba Colony, Coimbatore - 641011",industrial,0.576,Gate pass stamp mandatory from Security Gate 2; park in Commercial Bay #3
+ADDR_42A29BAC,"Shed 39, Electronic City Phase I, Subramaniam Road, Tambaram, Chennai - 600045",industrial,0.275,Side ramp access for two-wheelers; ring industrial buzzer at Godown Shutter #9239
+ADDR_07A1923E,"Villa 76, Adarsh Palm Retreat, Brigade Road, Kondapur, Hyderabad - 500084",gated community,0.584,Call resident (+91-98412680) at main gate; security will not allow entry without tenant clearance
+ADDR_D389F7A5,"Villa 33, Prestige Golfshire, Kamarajar Salai, RS Puram, Coimbatore - 641002",gated community,0.672,Tell Security Officer Murugesan visiting Villa #33; delivery vehicles must observe 20 km/h limit
+ADDR_8E7BEA5B,"Shed 4, Ambattur IE, Vaidyanathan Street, Guindy, Chennai - 600032",industrial,0.549,Loading Bay 4 at rear service alley; safety helmet and fluorescent vest required on dock
+ADDR_4C852E0E,"Flat 129C, Brigade Gateway Apartments, Subramaniam Road, Adyar, Chennai - 600020",apartment,0.345,"Call resident at +91-98401627 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_483FC983,"Villa 13, Oakwood Hills, 7th Cross, Ambattur, Chennai - 600058",gated community,0.767,Gate barrier code: 4533; state resident name at security kiosk for MyGate app pre-approval
+ADDR_F25C7DD1,"Villa 120, Whispering Palms, Brigade Road, Peelamedu, Coimbatore - 641004",gated community,0.663,Tell Security Officer Selvam visiting Villa #120; delivery vehicles must observe 20 km/h limit
+ADDR_C470B237,"Villa 40, Palm Groves, Vaidyanathan Street, Saibaba Colony, Coimbatore - 641011",gated community,0.661,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_92C6A949,"Flat 540A, Casagrand Zenith Apartments, 100 Feet Road, Cantonment, Trichy - 620001",apartment,0.363,"Call resident at +91-98404068 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_1E40DEC9,"Shed 35, Peenya Industrial Area, Ring Road, Adyar, Chennai - 600020",industrial,0.451,Gate pass stamp mandatory from Security Gate 1; park in Commercial Bay #4
+ADDR_805B61A5,"No. 68, Sri Raghavendra Nilayam, Subramaniam Road, Electronic City, Bangalore - 560100",standalone house,0.08,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_A8EA9788,"Villa 46, Silver County, Mount Road, Madhapur, Hyderabad - 500081",gated community,0.728,Tell Security Officer Ramanathan visiting Villa #46; delivery vehicles must observe 20 km/h limit
+ADDR_0686D84E,"Villa 58, Oakwood Hills, Vaidyanathan Street, Thuvakudi, Trichy - 620015",gated community,0.614,Gate barrier code: 1605; state resident name at security kiosk for MyGate app pre-approval
+ADDR_337E490E,"No. 83, Krishna Kripa, Bazaar Street, T. Nagar, Chennai - 600017",standalone house,0.143,Elderly resident on 1st floor; call +91-94448756 and allow 3 minutes for gate opening
+ADDR_52E8F15A,"Flat 466A, Casagrand Zenith Apartments, Lake View Road, Madhapur, Hyderabad - 500081",apartment,0.481,"Call resident at +91-98408159 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_689C23B3,"Villa 139, Adarsh Palm Retreat, Bazaar Street, Electronic City, Bangalore - 560100",gated community,0.536,Tell Security Officer Muthuvel visiting Villa #139; delivery vehicles must observe 20 km/h limit
+ADDR_3647A04B,"Villa 58, Nandi Hills Vista, Anna Salai, Adyar, Chennai - 600020",gated community,0.723,Tell Security Officer Chandran visiting Villa #58; delivery vehicles must observe 20 km/h limit
+ADDR_F59A8E5D,"Flat 807D, Sobha Renaissance Apartments, Anna Salai, Saibaba Colony, Coimbatore - 641011",apartment,0.437,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_C9C0F907,"Flat 788D, Prestige Shantiniketan Apartments, 1st Main Road, Kondapur, Hyderabad - 500084",apartment,0.448,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_2708D505,"Villa 72, Palm Groves, 100 Feet Road, T. Nagar, Chennai - 600017",gated community,0.706,Tell Security Officer Dharmaraj visiting Villa #72; delivery vehicles must observe 20 km/h limit
+ADDR_5207BF62,"Villa 107, Silver County, Vaidyanathan Street, Thuvakudi, Trichy - 620015",gated community,0.573,Gate barrier code: 9674; state resident name at security kiosk for MyGate app pre-approval
+ADDR_826C8BEC,"Flat 291D, Sterling Terraces Apartments, 2nd Cross Street, Velachery, Chennai - 600042",apartment,0.432,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_FDCE2664,"Villa 85, Grand Orchards, Vaidyanathan Street, Cantonment, Trichy - 620001",gated community,0.673,Enter through North Gate only; visitor parking strictly assigned at Bay #3223
+ADDR_B9764FCB,"Villa 100, Silver County, Gandhi Road, Bellandur, Bangalore - 560103",gated community,0.55,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_86D82996,"Villa 69, Silver County, Temple Street, Cantonment, Trichy - 620001",gated community,0.625,Enter through North Gate only; visitor parking strictly assigned at Bay #4878
+ADDR_21B59429,"Flat 233A, Rohan Viti Apartments, Vaidyanathan Street, Whitefield, Bangalore - 560066",apartment,0.362,"Call resident at +91-98409612 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_0EE57F21,"Flat 229C, Prestige Shantiniketan Apartments, Mount Road, Jayanagar, Bangalore - 560041",apartment,0.484,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_32EEFC1B,"Flat 544A, Sobha Renaissance Apartments, Temple Street, Saravanampatti, Coimbatore - 641035",apartment,0.489,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_CA945B5A,"No. 92, Annai Illam, Station Road, Cantonment, Trichy - 620001",standalone house,0.186,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_7C1AF68F,"Flat 647A, Mantri Elegance Apartments, Church Road, Thillai Nagar, Trichy - 620018",apartment,0.569,"Intercom code is #3804; if unanswered, leave parcel with Building Manager Mr. Chandran"
+ADDR_C683D8D4,"Villa 22, Silver County, Brigade Road, Gachibowli, Hyderabad - 500032",gated community,0.541,Gate barrier code: 5336; state resident name at security kiosk for MyGate app pre-approval
+ADDR_B3656F79,"Flat 743C, Godrej Woodsman Apartments, 2nd Cross Street, Thillai Nagar, Trichy - 620018",apartment,0.269,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_420AB717,"Flat 551D, Sobha Renaissance Apartments, 1st Main Road, Cantonment, Trichy - 620001",apartment,0.331,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_48275119,"Villa 106, Adarsh Palm Retreat, Bharathiar Salai, Whitefield, Bangalore - 560066",gated community,0.738,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_D016C710,"Flat 354B, Godrej Woodsman Apartments, Nehru Street, Velachery, Chennai - 600042",apartment,0.382,Security guard Selvam at Gate 2 verifies delivery OTP; take Lift B to Floor 7
+ADDR_58534ADC,"No. 84, Sai Kutir, Mount Road, HSR Layout, Bangalore - 560102",standalone house,0.28,"Behind Saravana Stores, opposite Apollo Pharmacy; narrow dead-end lane"
+ADDR_52DB9F27,"Shed 34, Ambattur IE, 7th Cross, Bellandur, Bangalore - 560103",industrial,0.534,Loading Bay 4 at rear service alley; safety helmet and fluorescent vest required on dock
+ADDR_CD4F5B8D,"Flat 712D, Godrej Woodsman Apartments, Church Road, T. Nagar, Chennai - 600017",apartment,0.368,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_8B571628,"No. 107, Lakshmi Vilas, Subramaniam Road, Koramangala, Bangalore - 560034",standalone house,0.218,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_C4244B55,"Flat 617D, Appaswamy Platina Apartments, Gandhi Road, Indiranagar, Bangalore - 560038",apartment,0.412,"Call resident at +91-98403108 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_4F33EC1F,"Shed 24, KIADB Logistics Park, Subramaniam Road, Electronic City, Bangalore - 560100",industrial,0.461,Deliveries accepted strictly between 10am-5pm; warehouse manager Chandran must sign invoice
+ADDR_60294971,"No. 125, Bhuvaneshwari Nilayam, Bazaar Street, Cantonment, Trichy - 620001",standalone house,0.133,"Behind Saravana Stores, opposite Apollo Pharmacy; narrow dead-end lane"
+ADDR_BD411EC5,"No. 45, Krishna Kripa, Bazaar Street, Saibaba Colony, Coimbatore - 641011",standalone house,0.08,Elderly resident on 1st floor; call +91-94445902 and allow 3 minutes for gate opening
+ADDR_5BFAC510,"Flat 587A, Casagrand Zenith Apartments, Mount Road, Gandhipuram, Coimbatore - 641012",apartment,0.327,"Call resident at +91-98407824 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_445242BA,"Flat 586C, Mantri Elegance Apartments, 2nd Cross Street, Kondapur, Hyderabad - 500084",apartment,0.434,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_7EFCFC2F,"Villa 74, Adarsh Palm Retreat, Bharathiar Salai, Banjara Hills, Hyderabad - 500034",gated community,0.719,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_BB6929BF,"No. 42, Krishna Kripa, Anna Salai, HSR Layout, Bangalore - 560102",standalone house,0.08,"Behind Saravana Stores, opposite Apollo Pharmacy; narrow dead-end lane"
+ADDR_C8D5E209,"Flat 242B, Sterling Terraces Apartments, 1st Main Road, Gachibowli, Hyderabad - 500032",apartment,0.379,"Call resident at +91-98409609 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_A39A6DD0,"Flat 451C, Rohan Viti Apartments, Vaidyanathan Street, Mylapore, Chennai - 600004",apartment,0.368,Security desk at Tower 2 logs all delivery drivers; visitor pass stamp required
+ADDR_E6D3C458,"Shed 16, Electronic City Phase I, Church Road, Indiranagar, Bangalore - 560038",industrial,0.546,Deliveries accepted strictly between 10am-5pm; warehouse manager Muthuvel must sign invoice
+ADDR_57F7F745,"Flat 505C, Appaswamy Platina Apartments, Avinashi Road, Saravanampatti, Coimbatore - 641035",apartment,0.331,"Call resident at +91-98402294 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_7673C83C,"Flat 652C, Brigade Gateway Apartments, Lake View Road, Gandhipuram, Coimbatore - 641012",apartment,0.451,"Call resident at +91-98404920 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_82B062FE,"Flat 754B, Brigade Gateway Apartments, Ring Road, Thuvakudi, Trichy - 620015",apartment,0.491,Security guard Ramanathan at Gate 2 verifies delivery OTP; take Lift B to Floor 6
+ADDR_154EA6D1,"No. 108, Bhuvaneshwari Nilayam, Temple Street, Peelamedu, Coimbatore - 641004",standalone house,0.201,Leave parcel inside covered wooden milk-box beside grill if resident is away
+ADDR_C5D8F16E,"Villa 27, Prestige Golfshire, Bazaar Street, Indiranagar, Bangalore - 560038",gated community,0.609,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_818F1895,"No. 49, Sri Raghavendra Nilayam, Anna Salai, Mylapore, Chennai - 600004",standalone house,0.08,Leave parcel inside covered wooden milk-box beside grill if resident is away
+ADDR_046C6C76,"No. 13, Sri Raghavendra Nilayam, Church Road, Gachibowli, Hyderabad - 500032",standalone house,0.185,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_33710740,"Flat 606B, Rohan Viti Apartments, Avinashi Road, Thillai Nagar, Trichy - 620018",apartment,0.349,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_49898FEF,"Flat 364B, Salarpuria Sattva Apartments, Vaidyanathan Street, Gachibowli, Hyderabad - 500032",apartment,0.292,"Call resident at +91-98403875 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_EBF598F2,"Flat 189D, Purva Windermere Apartments, Ring Road, Jayanagar, Bangalore - 560041",apartment,0.307,"Intercom code is #6301; if unanswered, leave parcel with Building Manager Mr. Selvam"
+ADDR_AF31BCE9,"Shed 18, Guindy Estate, Nehru Street, Anna Nagar, Chennai - 600040",industrial,0.475,Deliveries accepted strictly between 10am-5pm; warehouse manager Muthuvel must sign invoice
+ADDR_7CF4ACDA,"Flat 415B, Godrej Woodsman Apartments, Kamarajar Salai, Thuvakudi, Trichy - 620015",apartment,0.455,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_6F7B9D81,"Villa 68, Nandi Hills Vista, Subramaniam Road, Indiranagar, Bangalore - 560038",gated community,0.39,Enter through North Gate only; visitor parking strictly assigned at Bay #3509
+ADDR_662CC5D5,"Flat 876B, Godrej Woodsman Apartments, Avinashi Road, Cantonment, Trichy - 620001",apartment,0.447,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_AA205F16,"Flat 215A, Mantri Elegance Apartments, Gandhi Road, Whitefield, Bangalore - 560066",apartment,0.46,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_339DE8CC,"Flat 698D, Sterling Terraces Apartments, Lake View Road, Thuvakudi, Trichy - 620015",apartment,0.515,Security desk at Tower 2 logs all delivery drivers; visitor pass stamp required
+ADDR_6E57555A,"No. 148, Sri Raghavendra Nilayam, Vaidyanathan Street, Jayanagar, Bangalore - 560041",standalone house,0.088,Elderly resident on 1st floor; call +91-94448575 and allow 3 minutes for gate opening
+ADDR_1F14A6F2,"No. 59, Ganesh Illam, 2nd Cross Street, Koramangala, Bangalore - 560034",standalone house,0.08,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_32E031E7,"Flat 171D, Sri Lakshmi Apartments, Avinashi Road, Adyar, Chennai - 600020",apartment,0.402,"Call resident at +91-98403218 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_896D381F,"Villa 126, Emerald Greens, Subramaniam Road, Jayanagar, Bangalore - 560041",gated community,0.4,Call resident (+91-98419835) at main gate; security will not allow entry without tenant clearance
+ADDR_D533AF1C,"No. 49, Krishna Kripa, Kamarajar Salai, Whitefield, Bangalore - 560066",standalone house,0.112,Elderly resident on 1st floor; call +91-94443086 and allow 3 minutes for gate opening
+ADDR_F60594EB,"No. 122, Krishna Kripa, Church Road, Anna Nagar, Chennai - 600040",standalone house,0.08,Elderly resident on 1st floor; call +91-94447214 and allow 3 minutes for gate opening
+ADDR_72CE5231,"Villa 51, Silver County, Vaidyanathan Street, Guindy, Chennai - 600032",gated community,0.65,Enter through North Gate only; visitor parking strictly assigned at Bay #1527
+ADDR_AB364302,"Villa 29, Grand Orchards, Station Road, Anna Nagar, Chennai - 600040",gated community,0.542,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_0E358199,"Flat 859A, Brigade Gateway Apartments, 1st Main Road, Cantonment, Trichy - 620001",apartment,0.384,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_BDCC754F,"No. 151, Lakshmi Vilas, Station Road, Indiranagar, Bangalore - 560038",standalone house,0.08,Elderly resident on 1st floor; call +91-94446253 and allow 3 minutes for gate opening
+ADDR_E5B19AB5,"Flat 524C, Brigade Gateway Apartments, Ring Road, Ambattur, Chennai - 600058",apartment,0.357,Security guard Balakrishnan at Gate 3 verifies delivery OTP; take Lift B to Floor 3
+ADDR_C6F6BD67,"Flat 427D, Rohan Viti Apartments, Bharathiar Salai, Thillai Nagar, Trichy - 620018",apartment,0.371,"Intercom code is #4012; if unanswered, leave parcel with Building Manager Mr. Ponnusamy"
+ADDR_47FD0A7C,"Villa 88, Grand Orchards, Station Road, Gandhipuram, Coimbatore - 641012",gated community,0.72,Call resident (+91-98417761) at main gate; security will not allow entry without tenant clearance
+ADDR_2C4F44A5,"No. 56, Lakshmi Vilas, Nehru Street, Guindy, Chennai - 600032",standalone house,0.099,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_F39587AB,"Villa 25, Grand Orchards, Avinashi Road, Adyar, Chennai - 600020",gated community,0.671,Call resident (+91-98412192) at main gate; security will not allow entry without tenant clearance
+ADDR_AA62C976,"Villa 65, Oakwood Hills, Lake View Road, Peelamedu, Coimbatore - 641004",gated community,0.745,Tell Security Officer Dharmaraj visiting Villa #65; delivery vehicles must observe 20 km/h limit
+ADDR_7E38E32C,"Shed 33, Electronic City Phase I, Kamarajar Salai, Gachibowli, Hyderabad - 500032",industrial,0.349,Gate pass stamp mandatory from Security Gate 2; park in Commercial Bay #4
+ADDR_38FFD07B,"Flat 368C, Casagrand Zenith Apartments, Subramaniam Road, Peelamedu, Coimbatore - 641004",apartment,0.336,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_62ACD0EB,"Villa 92, Silver County, Lake View Road, HSR Layout, Bangalore - 560102",gated community,0.721,Gate barrier code: 3390; state resident name at security kiosk for MyGate app pre-approval
+ADDR_39BAE53E,"Flat 257B, Casagrand Zenith Apartments, Anna Salai, Gachibowli, Hyderabad - 500032",apartment,0.39,"Intercom code is #9180; if unanswered, leave parcel with Building Manager Mr. Dharmaraj"
+ADDR_03B7195C,"Flat 882D, Casagrand Zenith Apartments, Bazaar Street, Thuvakudi, Trichy - 620015",apartment,0.444,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_BE5191B6,"No. 138, Sri Raghavendra Nilayam, 1st Main Road, Peelamedu, Coimbatore - 641004",standalone house,0.198,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_9ABDC379,"Villa 29, Grand Orchards, 100 Feet Road, Jayanagar, Bangalore - 560041",gated community,0.593,Gate barrier code: 9285; state resident name at security kiosk for MyGate app pre-approval
+ADDR_9CDA316A,"Villa 16, Oakwood Hills, 7th Cross, Saibaba Colony, Coimbatore - 641011",gated community,0.628,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_574EFAF5,"No. 141, Annai Illam, Nehru Street, Gachibowli, Hyderabad - 500032",standalone house,0.166,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_DBA370F0,"Villa 50, Palm Groves, Kamarajar Salai, Mylapore, Chennai - 600004",gated community,0.51,Enter through North Gate only; visitor parking strictly assigned at Bay #6807
+ADDR_48F1E866,"Flat 516D, Purva Windermere Apartments, Gandhi Road, Electronic City, Bangalore - 560100",apartment,0.317,"Intercom code is #5914; if unanswered, leave parcel with Building Manager Mr. Ravichandran"
+ADDR_FA526910,"Villa 115, Palm Groves, 1st Main Road, Thillai Nagar, Trichy - 620018",gated community,0.478,Call resident (+91-98411919) at main gate; security will not allow entry without tenant clearance
+ADDR_526D7A96,"Villa 139, Palm Groves, Temple Street, Cantonment, Trichy - 620001",gated community,0.671,Tell Security Officer Ponnusamy visiting Villa #139; delivery vehicles must observe 20 km/h limit
+ADDR_2B6BFEFA,"Shed 20, Guindy Estate, Mount Road, Cantonment, Trichy - 620001",industrial,0.452,Loading Bay 3 at rear service alley; safety helmet and fluorescent vest required on dock
+ADDR_C75BF212,"No. 57, Shiva Kripa, 2nd Cross Street, HSR Layout, Bangalore - 560102",standalone house,0.089,Leave parcel inside covered wooden milk-box beside grill if resident is away
+ADDR_B10BC31C,"Flat 494B, Purva Windermere Apartments, Avinashi Road, Electronic City, Bangalore - 560100",apartment,0.478,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_62B5FE46,"No. 91, Krishna Kripa, Gandhi Road, Guindy, Chennai - 600032",standalone house,0.08,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_2885677D,"Flat 485D, Rohan Viti Apartments, Subramaniam Road, Guindy, Chennai - 600032",apartment,0.276,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_DD9D08AA,"Villa 33, Palm Groves, Station Road, Indiranagar, Bangalore - 560038",gated community,0.615,Enter through North Gate only; visitor parking strictly assigned at Bay #3527
+ADDR_41AAEA24,"No. 117, Lakshmi Vilas, Church Road, Anna Nagar, Chennai - 600040",standalone house,0.08,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_A4183F62,"No. 118, Krishna Kripa, Anna Salai, Mylapore, Chennai - 600004",standalone house,0.206,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_E48B21C3,"Flat 113C, Appaswamy Platina Apartments, Bazaar Street, Kondapur, Hyderabad - 500084",apartment,0.434,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_940DAE4B,"Flat 243C, Sobha Renaissance Apartments, Bharathiar Salai, Mylapore, Chennai - 600004",apartment,0.412,"Call resident at +91-98402036 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_F169ADAA,"Flat 358B, Purva Windermere Apartments, Gandhi Road, Kondapur, Hyderabad - 500084",apartment,0.436,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_81A50574,"No. 105, Lakshmi Vilas, 2nd Cross Street, Indiranagar, Bangalore - 560038",standalone house,0.144,Elderly resident on 1st floor; call +91-94447224 and allow 3 minutes for gate opening
+ADDR_C73ADFEB,"Flat 408C, Sobha Renaissance Apartments, Brigade Road, Banjara Hills, Hyderabad - 500034",apartment,0.313,"Intercom code is #3910; if unanswered, leave parcel with Building Manager Mr. Ravichandran"
+ADDR_6F267A88,"Shed 47, Electronic City Phase I, Church Road, HSR Layout, Bangalore - 560102",industrial,0.453,Gate pass stamp mandatory from Security Gate 2; park in Commercial Bay #3
+ADDR_D40B638F,"Flat 659B, Mantri Elegance Apartments, Lake View Road, Saravanampatti, Coimbatore - 641035",apartment,0.518,Security guard Chandran at Gate 3 verifies delivery OTP; take Lift B to Floor 8
+ADDR_A23A446A,"Flat 790D, Appaswamy Platina Apartments, Gandhi Road, Indiranagar, Bangalore - 560038",apartment,0.349,"Call resident at +91-98403525 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_3C346C48,"No. 153, Krishna Kripa, 7th Cross, Saibaba Colony, Coimbatore - 641011",standalone house,0.08,Elderly resident on 1st floor; call +91-94449300 and allow 3 minutes for gate opening
+ADDR_7633F39B,"Shed 5, Peenya Industrial Area, Anna Salai, Cantonment, Trichy - 620001",industrial,0.439,Gate pass stamp mandatory from Security Gate 1; park in Commercial Bay #1
+ADDR_FC573047,"Villa 96, Emerald Greens, Mount Road, T. Nagar, Chennai - 600017",gated community,0.557,Gate barrier code: 2615; state resident name at security kiosk for MyGate app pre-approval
+ADDR_6B2D6359,"Flat 695B, Rohan Viti Apartments, Ring Road, RS Puram, Coimbatore - 641002",apartment,0.543,"Call resident at +91-98409199 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_72A1A6F2,"Flat 219B, Prestige Shantiniketan Apartments, Anna Salai, Indiranagar, Bangalore - 560038",apartment,0.606,"Call resident at +91-98404389 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_F7215431,"Flat 549D, Prestige Shantiniketan Apartments, 7th Cross, Whitefield, Bangalore - 560066",apartment,0.453,Security guard Dharmaraj at Gate 2 verifies delivery OTP; take Lift B to Floor 1
+ADDR_1D071A72,"No. 66, Shiva Kripa, Temple Street, Kondapur, Hyderabad - 500084",standalone house,0.13,Elderly resident on 1st floor; call +91-94443623 and allow 3 minutes for gate opening
+ADDR_129B0EAB,"Flat 515B, Brigade Gateway Apartments, Vaidyanathan Street, Jayanagar, Bangalore - 560041",apartment,0.299,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_584EAEC3,"No. 75, Ganesh Illam, Lake View Road, Tambaram, Chennai - 600045",standalone house,0.146,Elderly resident on 1st floor; call +91-94442667 and allow 3 minutes for gate opening
+ADDR_42062422,"Villa 95, Silver County, Temple Street, Peelamedu, Coimbatore - 641004",gated community,0.576,Call resident (+91-98415298) at main gate; security will not allow entry without tenant clearance
+ADDR_2E470982,"Shed 42, Guindy Estate, Brigade Road, HSR Layout, Bangalore - 560102",industrial,0.399,Gate pass stamp mandatory from Security Gate 1; park in Commercial Bay #3
+ADDR_12305999,"Villa 33, Prestige Golfshire, Temple Street, Saibaba Colony, Coimbatore - 641011",gated community,0.603,Tell Security Officer Murugesan visiting Villa #33; delivery vehicles must observe 20 km/h limit
+ADDR_37D99642,"Villa 47, Emerald Greens, Bharathiar Salai, RS Puram, Coimbatore - 641002",gated community,0.668,Call resident (+91-98414043) at main gate; security will not allow entry without tenant clearance
+ADDR_316F70E9,"Flat 271D, Rohan Viti Apartments, Temple Street, Peelamedu, Coimbatore - 641004",apartment,0.263,"Intercom code is #8389; if unanswered, leave parcel with Building Manager Mr. Balakrishnan"
+ADDR_7B7C4877,"Shed 27, SIPCOT Phase II, 100 Feet Road, Gandhipuram, Coimbatore - 641012",industrial,0.371,Gate pass stamp mandatory from Security Gate 4; park in Commercial Bay #4
+ADDR_D508C074,"Flat 272A, Godrej Woodsman Apartments, Vaidyanathan Street, Banjara Hills, Hyderabad - 500034",apartment,0.365,Security guard Ravichandran at Gate 1 verifies delivery OTP; take Lift B to Floor 5
+ADDR_CAF2A115,"No. 130, Ganesh Illam, Mount Road, Bellandur, Bangalore - 560103",standalone house,0.218,Elderly resident on 1st floor; call +91-94442871 and allow 3 minutes for gate opening
+ADDR_3F20B96C,"Flat 875A, Rohan Viti Apartments, Subramaniam Road, Peelamedu, Coimbatore - 641004",apartment,0.37,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_C1B4657F,"Flat 457A, Casagrand Zenith Apartments, Vaidyanathan Street, T. Nagar, Chennai - 600017",apartment,0.264,Security guard Muthuvel at Gate 1 verifies delivery OTP; take Lift B to Floor 4
+ADDR_02623C42,"Villa 47, Adarsh Palm Retreat, Anna Salai, Saibaba Colony, Coimbatore - 641011",gated community,0.514,Enter through North Gate only; visitor parking strictly assigned at Bay #6747
+ADDR_7280179F,"No. 78, Annai Illam, Church Road, Cantonment, Trichy - 620001",standalone house,0.098,Elderly resident on 1st floor; call +91-94442560 and allow 3 minutes for gate opening
+ADDR_24AE5A3F,"No. 19, Annai Illam, Anna Salai, Madhapur, Hyderabad - 500081",standalone house,0.12,"Behind Saravana Stores, opposite Apollo Pharmacy; narrow dead-end lane"
+ADDR_98DFC07A,"Villa 48, Oakwood Hills, Bharathiar Salai, Madhapur, Hyderabad - 500081",gated community,0.746,Tell Security Officer Ravichandran visiting Villa #48; delivery vehicles must observe 20 km/h limit
+ADDR_5B03BCBC,"Flat 628C, Appaswamy Platina Apartments, Gandhi Road, Thillai Nagar, Trichy - 620018",apartment,0.485,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_39D0E9B9,"No. 20, Krishna Kripa, Subramaniam Road, Bellandur, Bangalore - 560103",standalone house,0.08,"Behind Saravana Stores, opposite Apollo Pharmacy; narrow dead-end lane"
+ADDR_03CFFD2F,"Villa 84, Silver County, Nehru Street, Gandhipuram, Coimbatore - 641012",gated community,0.66,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_F3C82F6B,"Villa 16, Oakwood Hills, Kamarajar Salai, T. Nagar, Chennai - 600017",gated community,0.455,Enter through North Gate only; visitor parking strictly assigned at Bay #8479
+ADDR_39D6ADD1,"No. 180, Shiva Kripa, Lake View Road, Jayanagar, Bangalore - 560041",standalone house,0.235,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_5B981D80,"No. 25, Lakshmi Vilas, Nehru Street, Whitefield, Bangalore - 560066",standalone house,0.08,"Behind Saravana Stores, opposite Apollo Pharmacy; narrow dead-end lane"
+ADDR_EC44047B,"Flat 772A, Appaswamy Platina Apartments, Station Road, Indiranagar, Bangalore - 560038",apartment,0.419,Security guard Selvam at Gate 1 verifies delivery OTP; take Lift B to Floor 8
+ADDR_70D52905,"Villa 42, Silver County, 2nd Cross Street, Anna Nagar, Chennai - 600040",gated community,0.662,Enter through North Gate only; visitor parking strictly assigned at Bay #2160
+ADDR_1850BEE5,"Flat 421C, Prestige Shantiniketan Apartments, Kamarajar Salai, Adyar, Chennai - 600020",apartment,0.474,"Intercom code is #3340; if unanswered, leave parcel with Building Manager Mr. Balakrishnan"
+ADDR_4260538E,"Villa 66, Silver County, Vaidyanathan Street, Mylapore, Chennai - 600004",gated community,0.663,Call resident (+91-98414559) at main gate; security will not allow entry without tenant clearance
+ADDR_E9F7C330,"No. 35, Krishna Kripa, 100 Feet Road, Velachery, Chennai - 600042",standalone house,0.103,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_9D4756D8,"Flat 716C, Rohan Viti Apartments, Station Road, Adyar, Chennai - 600020",apartment,0.42,"Call resident at +91-98409348 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_1153FF90,"No. 169, Sri Raghavendra Nilayam, Church Road, Electronic City, Bangalore - 560100",standalone house,0.08,"Behind Saravana Stores, opposite Apollo Pharmacy; narrow dead-end lane"
+ADDR_B740B58A,"Villa 104, Green Meadows, Ring Road, Adyar, Chennai - 600020",gated community,0.659,Enter through North Gate only; visitor parking strictly assigned at Bay #7895
+ADDR_426E966D,"Flat 889A, Godrej Woodsman Apartments, Temple Street, Thuvakudi, Trichy - 620015",apartment,0.419,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_B1660C2E,"Shed 43, Ambattur IE, Ring Road, Electronic City, Bangalore - 560100",industrial,0.657,Side ramp access for two-wheelers; ring industrial buzzer at Godown Shutter #7590
+ADDR_5D764892,"No. 161, Shiva Kripa, Avinashi Road, Peelamedu, Coimbatore - 641004",standalone house,0.085,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_0AA760C5,"Flat 435D, Rohan Viti Apartments, 100 Feet Road, Kondapur, Hyderabad - 500084",apartment,0.469,Security guard Ravichandran at Gate 2 verifies delivery OTP; take Lift B to Floor 7
+ADDR_6B137E6C,"No. 33, Bhuvaneshwari Nilayam, Anna Salai, Adyar, Chennai - 600020",standalone house,0.08,Elderly resident on 1st floor; call +91-94441901 and allow 3 minutes for gate opening
+ADDR_5959316A,"Villa 14, Adarsh Palm Retreat, 2nd Cross Street, Velachery, Chennai - 600042",gated community,0.743,Call resident (+91-98419568) at main gate; security will not allow entry without tenant clearance
+ADDR_8DE884FB,"Flat 481B, Sobha Renaissance Apartments, Nehru Street, Banjara Hills, Hyderabad - 500034",apartment,0.376,Security guard Balakrishnan at Gate 1 verifies delivery OTP; take Lift B to Floor 6
+ADDR_322CB54C,"Villa 128, Oakwood Hills, Gandhi Road, Saravanampatti, Coimbatore - 641035",gated community,0.649,Tell Security Officer Chandran visiting Villa #128; delivery vehicles must observe 20 km/h limit
+ADDR_9077A17A,"Villa 77, Adarsh Palm Retreat, Subramaniam Road, Mylapore, Chennai - 600004",gated community,0.62,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_150A4A39,"Villa 132, Green Meadows, Station Road, Anna Nagar, Chennai - 600040",gated community,0.614,Call resident (+91-98413932) at main gate; security will not allow entry without tenant clearance
+ADDR_93FCDA44,"Shed 48, KIADB Logistics Park, Avinashi Road, T. Nagar, Chennai - 600017",industrial,0.541,Main Security Desk inspects vehicle chassis; ask for Dispatch Supervisor Mr. Ponnusamy
+ADDR_C30E9681,"Villa 140, Palm Groves, Subramaniam Road, Saravanampatti, Coimbatore - 641035",gated community,0.585,Enter through North Gate only; visitor parking strictly assigned at Bay #9450
+ADDR_3925FDC1,"Shed 21, Guindy Estate, Gandhi Road, Electronic City, Bangalore - 560100",industrial,0.533,Deliveries accepted strictly between 10am-5pm; warehouse manager Balakrishnan must sign invoice
+ADDR_BA880A84,"Flat 576C, Brigade Gateway Apartments, Brigade Road, Indiranagar, Bangalore - 560038",apartment,0.383,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_A846D925,"No. 63, Lakshmi Vilas, 2nd Cross Street, Jayanagar, Bangalore - 560041",standalone house,0.237,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_6291266E,"Villa 64, Palm Groves, Church Road, Gachibowli, Hyderabad - 500032",gated community,0.621,Enter through North Gate only; visitor parking strictly assigned at Bay #9061
+ADDR_75EA8679,"Shed 5, SIDCO Industrial Estate, Nehru Street, Ambattur, Chennai - 600058",industrial,0.352,Gate pass stamp mandatory from Security Gate 4; park in Commercial Bay #6
+ADDR_E0499D05,"Flat 504A, Salarpuria Sattva Apartments, 100 Feet Road, RS Puram, Coimbatore - 641002",apartment,0.414,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_80581E7A,"Flat 818C, Appaswamy Platina Apartments, Bazaar Street, Koramangala, Bangalore - 560034",apartment,0.421,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_F471DBC7,"Villa 54, Palm Groves, 100 Feet Road, Velachery, Chennai - 600042",gated community,0.605,Call resident (+91-98417660) at main gate; security will not allow entry without tenant clearance
+ADDR_A88BF5DE,"No. 119, Annai Illam, Lake View Road, Whitefield, Bangalore - 560066",standalone house,0.141,Leave parcel inside covered wooden milk-box beside grill if resident is away
+ADDR_896FCF39,"Villa 67, Green Meadows, Brigade Road, Indiranagar, Bangalore - 560038",gated community,0.592,Enter through North Gate only; visitor parking strictly assigned at Bay #5066
+ADDR_43074DD7,"Shed 46, SIDCO Industrial Estate, Ring Road, Electronic City, Bangalore - 560100",industrial,0.542,Deliveries accepted strictly between 10am-5pm; warehouse manager Balakrishnan must sign invoice
+ADDR_0FB2E11E,"Flat 244A, Prestige Shantiniketan Apartments, Vaidyanathan Street, Velachery, Chennai - 600042",apartment,0.299,Security guard Ramanathan at Gate 1 verifies delivery OTP; take Lift B to Floor 3
+ADDR_A993A8EE,"Villa 78, Nandi Hills Vista, Gandhi Road, Whitefield, Bangalore - 560066",gated community,0.691,Gate barrier code: 4239; state resident name at security kiosk for MyGate app pre-approval
+ADDR_37C3D2D3,"No. 35, Sri Raghavendra Nilayam, Bazaar Street, Banjara Hills, Hyderabad - 500034",standalone house,0.08,Leave parcel inside covered wooden milk-box beside grill if resident is away
+ADDR_85D832D7,"No. 105, Bhuvaneshwari Nilayam, Anna Salai, Saravanampatti, Coimbatore - 641035",standalone house,0.1,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_A3FC623D,"Flat 557B, Casagrand Zenith Apartments, Nehru Street, Mylapore, Chennai - 600004",apartment,0.335,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_D1DAFAFE,"Flat 190C, Sri Lakshmi Apartments, 7th Cross, Peelamedu, Coimbatore - 641004",apartment,0.381,"Intercom code is #9614; if unanswered, leave parcel with Building Manager Mr. Ponnusamy"
+ADDR_10E37A52,"Flat 468D, Sterling Terraces Apartments, Bharathiar Salai, Anna Nagar, Chennai - 600040",apartment,0.636,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_B32F3732,"Flat 712B, Purva Windermere Apartments, 2nd Cross Street, Mylapore, Chennai - 600004",apartment,0.314,"Call resident at +91-98409674 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_25FCEBD6,"Flat 773B, Brigade Gateway Apartments, Kamarajar Salai, Mylapore, Chennai - 600004",apartment,0.463,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_82A314D6,"Flat 278B, Purva Windermere Apartments, Bharathiar Salai, Kondapur, Hyderabad - 500084",apartment,0.359,Security desk at Tower 2 logs all delivery drivers; visitor pass stamp required
+ADDR_9E6A1B25,"Flat 605C, Brigade Gateway Apartments, Mount Road, Ambattur, Chennai - 600058",apartment,0.309,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_501ED933,"Flat 590A, Rohan Viti Apartments, 2nd Cross Street, Guindy, Chennai - 600032",apartment,0.343,Security desk at Tower 1 logs all delivery drivers; visitor pass stamp required
+ADDR_5779E0DE,"Villa 49, Green Meadows, 1st Main Road, HSR Layout, Bangalore - 560102",gated community,0.445,Enter through North Gate only; visitor parking strictly assigned at Bay #9622
+ADDR_8D1102FC,"Villa 37, Emerald Greens, Subramaniam Road, Adyar, Chennai - 600020",gated community,0.748,Tell Security Officer Dharmaraj visiting Villa #37; delivery vehicles must observe 20 km/h limit
+ADDR_3B3D8B1C,"Flat 425B, Salarpuria Sattva Apartments, 7th Cross, Thillai Nagar, Trichy - 620018",apartment,0.36,Security desk at Tower 2 logs all delivery drivers; visitor pass stamp required
+ADDR_BCBFA363,"Flat 282A, Sobha Renaissance Apartments, Church Road, Gachibowli, Hyderabad - 500032",apartment,0.236,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_E33FC89F,"Shed 34, SIDCO Industrial Estate, Mount Road, Guindy, Chennai - 600032",industrial,0.372,Deliveries accepted strictly between 10am-5pm; warehouse manager Murugesan must sign invoice
+ADDR_69097F52,"Shed 48, KIADB Logistics Park, Gandhi Road, Mylapore, Chennai - 600004",industrial,0.48,Side ramp access for two-wheelers; ring industrial buzzer at Godown Shutter #4435
+ADDR_C59B4F45,"Flat 496D, Sri Lakshmi Apartments, 2nd Cross Street, Velachery, Chennai - 600042",apartment,0.41,"Intercom code is #7204; if unanswered, leave parcel with Building Manager Mr. Ponnusamy"
+ADDR_F0BC19B5,"Flat 908B, Godrej Woodsman Apartments, Kamarajar Salai, Electronic City, Bangalore - 560100",apartment,0.442,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_F093100F,"No. 100, Shiva Kripa, Temple Street, HSR Layout, Bangalore - 560102",standalone house,0.128,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_B30277AA,"Shed 42, Peenya Industrial Area, Bazaar Street, Adyar, Chennai - 600020",industrial,0.413,Loading Bay 4 at rear service alley; safety helmet and fluorescent vest required on dock
+ADDR_AA60D540,"No. 52, Krishna Kripa, Lake View Road, HSR Layout, Bangalore - 560102",standalone house,0.08,Elderly resident on 1st floor; call +91-94449849 and allow 3 minutes for gate opening
+ADDR_D832D4FB,"Flat 199A, Brigade Gateway Apartments, Church Road, Indiranagar, Bangalore - 560038",apartment,0.387,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_76CE4548,"No. 126, Sai Kutir, Brigade Road, Banjara Hills, Hyderabad - 500034",standalone house,0.122,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_7981FB50,"Flat 585A, Prestige Shantiniketan Apartments, Church Road, Thillai Nagar, Trichy - 620018",apartment,0.464,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_4D2BECFC,"No. 51, Bhuvaneshwari Nilayam, Subramaniam Road, Electronic City, Bangalore - 560100",standalone house,0.174,Beware of pet dog inside compound; ring brass bell beside green iron gate
+ADDR_E2CC6B0A,"Flat 678A, Casagrand Zenith Apartments, Station Road, Koramangala, Bangalore - 560034",apartment,0.265,Security guard Murugesan at Gate 1 verifies delivery OTP; take Lift B to Floor 6
+ADDR_8EAE8449,"Flat 529D, Rohan Viti Apartments, Bharathiar Salai, T. Nagar, Chennai - 600017",apartment,0.449,"Intercom code is #2293; if unanswered, leave parcel with Building Manager Mr. Ravichandran"
+ADDR_2077AB24,"Flat 685B, Rohan Viti Apartments, 1st Main Road, Cantonment, Trichy - 620001",apartment,0.395,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_E3F604EC,"Flat 743B, Brigade Gateway Apartments, Anna Salai, Thuvakudi, Trichy - 620015",apartment,0.341,"Call resident at +91-98402425 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_EBDE7745,"Flat 383D, Purva Windermere Apartments, Avinashi Road, Electronic City, Bangalore - 560100",apartment,0.415,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_C205F1C6,"Flat 677A, Prestige Shantiniketan Apartments, Kamarajar Salai, Saravanampatti, Coimbatore - 641035",apartment,0.41,Security desk at Tower 2 logs all delivery drivers; visitor pass stamp required
+ADDR_AA670C0C,"Flat 585A, Mantri Elegance Apartments, Mount Road, Gandhipuram, Coimbatore - 641012",apartment,0.543,"Call resident at +91-98407581 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_2F21D3FD,"Flat 587C, Sterling Terraces Apartments, 1st Main Road, Guindy, Chennai - 600032",apartment,0.421,Security guard Dharmaraj at Gate 2 verifies delivery OTP; take Lift B to Floor 5
+ADDR_711D021F,"Flat 238C, Brigade Gateway Apartments, Kamarajar Salai, Gandhipuram, Coimbatore - 641012",apartment,0.401,"Call resident at +91-98402462 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_1CFF59C4,"Villa 107, Whispering Palms, 7th Cross, Gachibowli, Hyderabad - 500032",gated community,0.671,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_6A6A7739,"Flat 900A, Sobha Renaissance Apartments, Bharathiar Salai, RS Puram, Coimbatore - 641002",apartment,0.405,"Intercom code is #5087; if unanswered, leave parcel with Building Manager Mr. Murugesan"
+ADDR_D7A4A77A,"Flat 576D, Purva Windermere Apartments, Nehru Street, Tambaram, Chennai - 600045",apartment,0.385,Security guard Selvam at Gate 1 verifies delivery OTP; take Lift B to Floor 6
+ADDR_7DDAB78E,"Flat 665C, Mantri Elegance Apartments, 7th Cross, Mylapore, Chennai - 600004",apartment,0.405,"Intercom code is #5670; if unanswered, leave parcel with Building Manager Mr. Dharmaraj"
+ADDR_794CCE21,"Villa 69, Grand Orchards, Lake View Road, Madhapur, Hyderabad - 500081",gated community,0.624,Tell Security Officer Subramani visiting Villa #69; delivery vehicles must observe 20 km/h limit
+ADDR_E18E5F1B,"No. 125, Shiva Kripa, 2nd Cross Street, Madhapur, Hyderabad - 500081",standalone house,0.138,"Behind Saravana Stores, opposite Apollo Pharmacy; narrow dead-end lane"
+ADDR_6CBEC8E2,"Shed 27, Guindy Estate, Nehru Street, Cantonment, Trichy - 620001",industrial,0.588,Side ramp access for two-wheelers; ring industrial buzzer at Godown Shutter #8646
+ADDR_E511D737,"Flat 699A, Appaswamy Platina Apartments, Brigade Road, RS Puram, Coimbatore - 641002",apartment,0.369,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_4E5753BE,"No. 74, Annai Illam, Bazaar Street, Koramangala, Bangalore - 560034",standalone house,0.157,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_23C6E0FA,"No. 18, Krishna Kripa, Station Road, Madhapur, Hyderabad - 500081",standalone house,0.099,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_837566F1,"Shed 27, Guindy Estate, Anna Salai, Koramangala, Bangalore - 560034",industrial,0.365,Gate pass stamp mandatory from Security Gate 2; park in Commercial Bay #3
+ADDR_3029E503,"Villa 88, Silver County, 7th Cross, Thillai Nagar, Trichy - 620018",gated community,0.654,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_032EE636,"Flat 797C, Sobha Renaissance Apartments, Avinashi Road, Kondapur, Hyderabad - 500084",apartment,0.404,"Intercom code is #6031; if unanswered, leave parcel with Building Manager Mr. Selvam"
+ADDR_B1B1C5D4,"Flat 700C, Casagrand Zenith Apartments, Subramaniam Road, HSR Layout, Bangalore - 560102",apartment,0.328,Security guard Muthuvel at Gate 2 verifies delivery OTP; take Lift B to Floor 1
+ADDR_0B3C17C7,"No. 139, Annai Illam, Bharathiar Salai, Thuvakudi, Trichy - 620015",standalone house,0.129,Leave parcel inside covered wooden milk-box beside grill if resident is away
+ADDR_30CC532A,"Villa 99, Grand Orchards, 100 Feet Road, Ambattur, Chennai - 600058",gated community,0.569,East Gate closed after 7 PM; detour via Main South Gate and sign commercial visitor register
+ADDR_8A36553E,"Villa 92, Adarsh Palm Retreat, Bazaar Street, Gandhipuram, Coimbatore - 641012",gated community,0.736,Gate barrier code: 5481; state resident name at security kiosk for MyGate app pre-approval
+ADDR_7B5D59D6,"Flat 883B, Mantri Elegance Apartments, Temple Street, Madhapur, Hyderabad - 500081",apartment,0.21,Security guard Muthuvel at Gate 1 verifies delivery OTP; take Lift B to Floor 7
+ADDR_7CA57B7A,"Flat 849C, Brigade Gateway Apartments, Avinashi Road, T. Nagar, Chennai - 600017",apartment,0.498,"Call resident at +91-98401293 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_B47E8739,"Villa 100, Grand Orchards, Station Road, Thillai Nagar, Trichy - 620018",gated community,0.552,Enter through North Gate only; visitor parking strictly assigned at Bay #7284
+ADDR_6B4FA0C9,"No. 78, Bhuvaneshwari Nilayam, Church Road, T. Nagar, Chennai - 600017",standalone house,0.119,Elderly resident on 1st floor; call +91-94449587 and allow 3 minutes for gate opening
+ADDR_ADDAAA48,"Flat 602C, Purva Windermere Apartments, 100 Feet Road, Thuvakudi, Trichy - 620015",apartment,0.417,"Intercom code is #4742; if unanswered, leave parcel with Building Manager Mr. Subramani"
+ADDR_86C458E3,"Flat 274A, Rohan Viti Apartments, Mount Road, Anna Nagar, Chennai - 600040",apartment,0.609,Security guard Dharmaraj at Gate 2 verifies delivery OTP; take Lift B to Floor 5
+ADDR_67B1B05F,"Villa 17, Palm Groves, 1st Main Road, Saibaba Colony, Coimbatore - 641011",gated community,0.546,Gate barrier code: 8279; state resident name at security kiosk for MyGate app pre-approval
+ADDR_2FF158AE,"Flat 803A, Sterling Terraces Apartments, Lake View Road, Ambattur, Chennai - 600058",apartment,0.449,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
+ADDR_B780DFB1,"Flat 208A, Appaswamy Platina Apartments, 100 Feet Road, Saibaba Colony, Coimbatore - 641011",apartment,0.273,Security guard Balakrishnan at Gate 1 verifies delivery OTP; take Lift B to Floor 8
+ADDR_2ED15679,"Villa 87, Emerald Greens, Subramaniam Road, Tambaram, Chennai - 600045",gated community,0.532,Gate barrier code: 4402; state resident name at security kiosk for MyGate app pre-approval
+ADDR_75755B3D,"Villa 12, Grand Orchards, Bazaar Street, Gandhipuram, Coimbatore - 641012",gated community,0.641,Gate barrier code: 9095; state resident name at security kiosk for MyGate app pre-approval
+ADDR_0FEE96D3,"Flat 760B, Casagrand Zenith Apartments, Kamarajar Salai, Gachibowli, Hyderabad - 500032",apartment,0.408,"Call resident at +91-98401820 on arrival; entrance buzzer broken, knock firmly twice"
+ADDR_7D3E32B8,"No. 78, Lakshmi Vilas, 1st Main Road, Mylapore, Chennai - 600004",standalone house,0.117,"Opposite TASMAC junction; two-wheeler access only, house with blue grill door"
+ADDR_0577EE08,"Villa 55, Adarsh Palm Retreat, 2nd Cross Street, T. Nagar, Chennai - 600017",gated community,0.584,Tell Security Officer Dharmaraj visiting Villa #55; delivery vehicles must observe 20 km/h limit
+ADDR_F955A5AC,"Villa 58, Silver County, Subramaniam Road, Adyar, Chennai - 600020",gated community,0.609,Call resident (+91-98418479) at main gate; security will not allow entry without tenant clearance
+ADDR_2F2D8872,"Villa 40, Adarsh Palm Retreat, Anna Salai, Kondapur, Hyderabad - 500084",gated community,0.698,Gate barrier code: 2699; state resident name at security kiosk for MyGate app pre-approval
+ADDR_95D4CD78,"Flat 795D, Mantri Elegance Apartments, 7th Cross, Saravanampatti, Coimbatore - 641035",apartment,0.487,Security desk at Tower 2 logs all delivery drivers; visitor pass stamp required
+ADDR_F6AE2DD2,"Villa 40, Oakwood Hills, 7th Cross, Ambattur, Chennai - 600058",gated community,0.495,Call resident (+91-98412037) at main gate; security will not allow entry without tenant clearance
+ADDR_94628EE2,"Flat 795B, Sterling Terraces Apartments, 2nd Cross Street, HSR Layout, Bangalore - 560102",apartment,0.348,Security desk at Tower 3 logs all delivery drivers; visitor pass stamp required
+ADDR_F2654607,"Flat 672A, Sobha Renaissance Apartments, Bharathiar Salai, Thuvakudi, Trichy - 620015",apartment,0.329,"Intercom code is #9123; if unanswered, leave parcel with Building Manager Mr. Ramanathan"
+ADDR_E21CE513,"Villa 73, Silver County, 7th Cross, Adyar, Chennai - 600020",gated community,0.64,Tell Security Officer Dharmaraj visiting Villa #73; delivery vehicles must observe 20 km/h limit
+ADDR_1166F6EF,"Flat 555D, Godrej Woodsman Apartments, Gandhi Road, Guindy, Chennai - 600032",apartment,0.493,Cargo deliveries restricted to service elevator on rear left; passenger lift has CCTV penalty
